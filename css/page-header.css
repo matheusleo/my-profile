@@ -1,0 +1,53 @@
+.page-header {
+  display: flex;
+  background-color: var(--color-second);
+  font-family: "Fira Code", monospace;
+  font-size: 20px;
+  color: var(--color-third);
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.menu-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.menu-header .options {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.menu-header .options .option {
+  display: inline-flex;
+  margin-right: 30px;
+  color: var(--color-third);
+  text-decoration: none;
+  transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
+}
+
+.menu-header .options .option::before {
+  content: " ";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--color-first);
+  margin-right: 10px;
+  align-self: center;
+}
+
+.menu-header .options .option:hover,
+.menu-header .options .option:focus {
+  transform: scale(1.05);
+}
+
+.menu-header .options .option:focus::before,
+.menu-header .options .option:hover::before {
+  background-color: var(--color-fifth);
+}

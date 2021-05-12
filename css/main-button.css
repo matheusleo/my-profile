@@ -1,0 +1,22 @@
+.cv-button {
+  font-family: inherit;
+  font-size: inherit;
+  border-radius: 0px;
+  border: 0px;
+  background-color: var(--color-first);
+  color: var(--color-third);
+  box-shadow: 5px 5px 0px var(--color-black-first);
+  text-align: center;
+  padding-left: 19px;
+  padding-right: 19px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  cursor: pointer;
+  transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
+}
+
+.cv-button:focus,
+.cv-button:hover {
+  background-color: var(--color-fifth);
+  transform: scale(1.05);
+}
