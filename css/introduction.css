@@ -1,0 +1,34 @@
+.main-banner {
+  display: flex;
+  height: 180px;
+  width: 680px;
+  background-color: var(--color-second);
+  box-shadow: 10px 10px 0px var(--color-black-first);
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 40px;
+}
+
+.name {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 40px;
+  color: var(--color-first);
+  text-shadow: 4px 4px 0px var(--color-black-first);
+  padding-bottom: 30px;
+}
+
+.status {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 30px;
+  color: var(--color-third);
+  text-shadow: 4px 4px 0px var(--color-black-first);
+}
+
+.actions {
+  display: flex;
+  width: 680px;
+  justify-content: space-around;
+}
