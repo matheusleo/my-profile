@@ -13,3 +13,7 @@
   --color-error: #ba1f33;
   --color-warning: #ceb02a;
 }
+
+body {
+  font-family: "Press Start 2P", cursive;
+}

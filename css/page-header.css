@@ -8,6 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  border-bottom: 8px solid var(--color-black-first);
 }
 
 .menu-header {
