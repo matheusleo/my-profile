@@ -54,3 +54,16 @@
   box-shadow: 4px 4px 0px var(--color-black-first);
   border: 5px solid var(--color-first);
 }
+
+@media (max-width: 1165px) {
+  .introduction {
+    height: 1080px;
+    flex-flow: column-reverse wrap;
+    justify-content: center;
+  }
+
+  .wrapper-banner {
+    position: static;
+    margin-top: 50px;
+  }
+}
