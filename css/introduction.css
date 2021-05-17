@@ -1,5 +1,18 @@
 .introduction {
+  display: flex;
+  height: 695px;
   background-color: var(--color-fourth);
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://wallpapercave.com/wp/wp1933950.png");
+  background-position: center 15%;
+}
+
+.wrapper-banner {
+  position: relative;
+  bottom: 10%;
 }
 
 .main-banner {
