@@ -1,3 +1,7 @@
+.introduction {
+  background-color: var(--color-fourth);
+}
+
 .main-banner {
   display: flex;
   height: 180px;
@@ -31,4 +35,9 @@
   display: flex;
   width: 680px;
   justify-content: space-around;
+}
+
+.profile-picture {
+  box-shadow: 4px 4px 0px var(--color-black-first);
+  border: 5px solid var(--color-first);
 }
