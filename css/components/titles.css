@@ -6,3 +6,7 @@
   text-shadow: 4px 4px 0px var(--color-black-first);
   margin-bottom: 30px;
 }
+.section.title {
+  color: var(--color-third);
+  text-shadow: none;
+}
