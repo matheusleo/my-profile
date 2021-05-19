@@ -4,5 +4,5 @@
   font-size: 40px;
   color: var(--color-first);
   text-shadow: 4px 4px 0px var(--color-black-first);
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
