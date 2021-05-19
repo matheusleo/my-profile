@@ -1,0 +1,23 @@
+.wrapper-presentation {
+  position: relative;
+  bottom: 10%;
+}
+
+.main-presentation {
+  display: flex;
+  height: 180px;
+  width: 680px;
+  background-color: var(--color-second);
+  box-shadow: 10px 10px 0px var(--color-black-first);
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 40px;
+}
+
+@media (max-width: 1165px) {
+  .wrapper-presentation {
+    position: static;
+    margin-top: 50px;
+  }
+}

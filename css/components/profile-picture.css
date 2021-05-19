@@ -1,0 +1,4 @@
+.profile-picture {
+  box-shadow: 4px 4px 0px var(--color-black-first);
+  border: 5px solid var(--color-first);
+}
