@@ -1,0 +1,7 @@
+.section-skills {
+  /*display: flex;*/
+  background-color: var(--color-first);
+  /*justify-content: center;*/
+  height: 730px;
+  padding: 50px 0px 100px;
+}
