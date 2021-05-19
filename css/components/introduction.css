@@ -8,6 +8,7 @@
   align-content: center;
   background-image: url("https://wallpapercave.com/wp/wp1933950.png");
   background-position: center 15%;
+  border-bottom: 8px solid var(--color-black-second);
 }
 
 .wrapper-actions {
