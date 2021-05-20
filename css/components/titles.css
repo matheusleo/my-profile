@@ -10,3 +10,9 @@
   color: var(--color-third);
   text-shadow: none;
 }
+
+.title.-skill {
+  font-size: 25px;
+  color: var(--color-third);
+  text-shadow: none;
+}
