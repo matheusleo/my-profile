@@ -1,0 +1,16 @@
+.measure {
+  width: 320px;
+  height: 50px;
+}
+
+.measure::-webkit-meter-bar {
+  background-color: var(--color-fourth);
+  border-radius: 0px;
+  border: 5px solid var(--color-second);
+  background-origin: border-box;
+  box-sizing: content-box;
+}
+
+.measure::-webkit-meter-optimum-value {
+  background-color: var(--color-second);
+}
