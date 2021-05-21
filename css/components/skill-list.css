@@ -1,0 +1,7 @@
+.skill-list {
+  max-width: 960px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 380px;
+}
