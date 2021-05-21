@@ -17,4 +17,5 @@
 
 .measure::-webkit-meter-optimum-value {
   background-color: var(--color-second);
+  transition: 2000ms 500ms;
 }
