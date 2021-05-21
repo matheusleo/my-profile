@@ -1,4 +1,4 @@
-.skill-list {
+#skill-list {
   max-width: 960px;
   display: flex;
   flex-flow: row wrap;
