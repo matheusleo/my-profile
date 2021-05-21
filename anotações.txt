@@ -1,1 +1,7 @@
 A próxima aula à ser assistida é a do [Módulo 4.01]
+
+Para fazer:
+    1. Organizar o posicionamento da section "Skills"
+    2. Codar o JS que cria o HTML dinamicamente
+    3. Corrigir o posicionamento das "skills"
+    4. Implementar a animação em todos as "skills"
