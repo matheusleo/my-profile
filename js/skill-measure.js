@@ -23,10 +23,19 @@ const skillBarCSS3 = document.querySelector("#CSS3");
 const skillBarJS = document.querySelector("#JavaScript");
 const skillBarReact = document.querySelector("#React");
 const skillBarUX = document.querySelector("#UX");
+const buttonMeasure = document.querySelector("#button-measure")
+
+let skillValues = {
+  HTML5: 60,
+  CSS3: 50,
+  JS: 40,
+  React: 10,
+  UX: 10,
+};
 
 skillBarHTML5.addEventListener("mouseover", () => {
-  skillBarHTML5.value = 60;
-  skillBarHTML5.textContent = "60%";
+  skillBarHTML5.value = skillValues.HTML5;
+  skillBarHTML5.textContent = `skillValues.HTML5%`;
 });
 skillBarHTML5.addEventListener("mouseout", () => {
   skillBarHTML5.value = 0;
@@ -34,8 +43,8 @@ skillBarHTML5.addEventListener("mouseout", () => {
 });
 
 skillBarCSS3.addEventListener("mouseover", () => {
-  skillBarCSS3.value = 50;
-  skillBarCSS3.textContent = "50%";
+  skillBarCSS3.value = skillValues.CSS3;
+  skillBarCSS3.textContent = `skillValues.CSS3%`;
 });
 skillBarCSS3.addEventListener("mouseout", () => {
   skillBarCSS3.value = 0;
@@ -43,8 +52,8 @@ skillBarCSS3.addEventListener("mouseout", () => {
 });
 
 skillBarJS.addEventListener("mouseover", () => {
-  skillBarJS.value = 40;
-  skillBarJS.textContent = "40%";
+  skillBarJS.value = skillValues.JS;
+  skillBarJS.textContent = `skillValues.JS%`;
 });
 skillBarJS.addEventListener("mouseout", () => {
   skillBarJS.value = 0;
@@ -52,8 +61,8 @@ skillBarJS.addEventListener("mouseout", () => {
 });
 
 skillBarReact.addEventListener("mouseover", () => {
-  skillBarReact.value = 10;
-  skillBarReact.textContent = "10%";
+  skillBarReact.value = skillValues.React;
+  skillBarReact.textContent = `skillValues.React%`;
 });
 skillBarReact.addEventListener("mouseout", () => {
   skillBarReact.value = 0;
@@ -61,8 +70,8 @@ skillBarReact.addEventListener("mouseout", () => {
 });
 
 skillBarUX.addEventListener("mouseover", () => {
-  skillBarUX.value = 10;
-  skillBarUX.textContent = "10%";
+  skillBarUX.value = skillValues.UX;
+  skillBarUX.textContent = `skillValues.UX%`;
 });
 skillBarUX.addEventListener("mouseout", () => {
   skillBarUX.value = 0;
