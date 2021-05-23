@@ -4,7 +4,8 @@ Para fazer:
     1. Organizar o posicionamento da section "Skills" [ok]
     2. Codar o JS que cria o HTML dinamicamente [ok]
     3. Implementar a animação em todos as "skills" [ok]
-    4. Corrigir o posicionamento das "skills" (corrigir alinhamento vertical UX)
+    4. Corrigir o posicionamento das "skills" [ok]
+        4. Corrigir alinhamento vertical UX [ok]
     5. Pensar em uma maneira em que não seja necessária repetir o JS
 
 Plano 1 - posicionamento

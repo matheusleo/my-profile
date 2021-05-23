@@ -4,6 +4,7 @@
   height: 90px;
   width: 430px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .skill-wrapper-details {

@@ -1,7 +1,14 @@
 #skill-list {
-  max-width: 960px;
+  max-width: 1080px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 380px;
+}
+
+@media (max-width: 975px) {
+  #skill-list {
+    flex-flow: column wrap;
+    height: 610px;
+  }
 }
