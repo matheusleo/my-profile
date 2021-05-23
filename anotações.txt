@@ -25,10 +25,8 @@ Plano 5 - botão
     A ideia é criar um botão que, ao clicar, ele acesse e modifique os valores que estão sendo 
     dispostos na tela dos meters.
 
-    a) Criar o botão e ter acesso a ele - criar e utilizar o document e selecionar ele
-        Adicionar id à ele
-    b) Adicionar eventListener para que possa saber quando o botão foi clicado
-    c) Acessar o codigo de cada uma das meters e seus respectivos values - 
-        Como? - eu não preciso pensar no "Como?" eu já tenho elas
-    d) Ter acesso aos valores finais de cada um - ou seja, ter um objeto/mapa com esses valores
-    e) Susbtituir os values pelos valores finais
+    a) Criar o botão e ter acesso a ele - criar e utilizar o document e selecionar ele [ok]
+    b) Adicionar eventListener para que possa saber quando o botão foi clicado [ok]
+    c) Acessar o codigo de cada uma das meters e seus respectivos values [ok]
+    d) Ter acesso aos valores finais de cada um - ou seja, ter um objeto com esses valores [ok]
+    e) Susbtituir os values pelos valores finais [ok]

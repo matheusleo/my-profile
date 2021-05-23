@@ -15,7 +15,7 @@
 //    3. Modificar o value da barra após o saída do mouse [ok]
 //    3.2 Modificar a porcentagem dentro do meter após a saída [ok]
 //
-//Plano D: Criar JS que será responsavel por modificar os values ao ser clicado
+//Plano D: Criar JS que será responsavel por modificar os values ao ser clicado [ok]
 //Plano E: Implementar para que o Plano A funcione com focus
 
 const skillBarHTML5 = document.querySelector("#HTML5");
@@ -23,7 +23,7 @@ const skillBarCSS3 = document.querySelector("#CSS3");
 const skillBarJS = document.querySelector("#JavaScript");
 const skillBarReact = document.querySelector("#React");
 const skillBarUX = document.querySelector("#UX");
-const buttonMeasure = document.querySelector("#button-measure")
+const buttonMeasure = document.querySelector("#button-measure");
 
 let skillValues = {
   HTML5: 60,
@@ -76,4 +76,12 @@ skillBarUX.addEventListener("mouseover", () => {
 skillBarUX.addEventListener("mouseout", () => {
   skillBarUX.value = 0;
   skillBarUX.textContent = "0%";
+});
+
+buttonMeasure.addEventListener("click", () => {
+  skillBarHTML5.value = skillValues.HTML5;
+  skillBarCSS3.value = skillValues.CSS3;
+  skillBarJS.value = skillValues.JS;
+  skillBarReact.value = skillValues.React;
+  skillBarUX.value = skillValues.UX;
 });
