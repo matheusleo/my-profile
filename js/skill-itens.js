@@ -12,7 +12,7 @@ const mySkills = new Map([
     "html5",
     {
       skillIcon:
-        "https://github.com/matheusleo/my-profile/blob/section-skills/assets/img/html5.png?raw=true",
+        "https://github.com/matheusleo/my-profile/blob/master/assets/img/html5.png?raw=true",
       skillTitle: "HTML5",
       skillValue: "60",
     },
@@ -21,7 +21,7 @@ const mySkills = new Map([
     "css3",
     {
       skillIcon:
-        "https://github.com/matheusleo/my-profile/blob/section-skills/assets/img/css3.png?raw=true",
+        "https://github.com/matheusleo/my-profile/blob/master/assets/img/css3.png?raw=true",
       skillTitle: "CSS3",
       skillValue: "50",
     },
@@ -30,7 +30,7 @@ const mySkills = new Map([
     "js",
     {
       skillIcon:
-        "https://github.com/matheusleo/my-profile/blob/section-skills/assets/img/js.png?raw=true",
+        "https://github.com/matheusleo/my-profile/blob/master/assets/img/js.png?raw=true",
       skillTitle: "JavaScript",
       skillValue: "40",
     },
@@ -39,7 +39,7 @@ const mySkills = new Map([
     "react",
     {
       skillIcon:
-        "https://github.com/matheusleo/my-profile/blob/section-skills/assets/img/react.png?raw=true",
+        "https://github.com/matheusleo/my-profile/blob/master/assets/img/react.png?raw=true",
       skillTitle: "React",
       skillValue: "10",
     },
@@ -48,7 +48,7 @@ const mySkills = new Map([
     "UX",
     {
       skillIcon:
-        "https://github.com/matheusleo/my-profile/blob/section-skills/assets/img/ux.png?raw=true",
+        "https://github.com/matheusleo/my-profile/blob/master/assets/img/ux.png?raw=true",
       skillTitle: "UX",
       skillValue: "10",
     },
