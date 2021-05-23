@@ -8,6 +8,9 @@ Para fazer:
         4. Corrigir alinhamento vertical UX [ok]
     5. Pensar em uma maneira em que não seja necessária repetir o JS
 
+Corrigir depois:
+    1. Adicionar lang nos locais que estão em inglês - HTML
+
 Plano 1 - posicionamento
     a. Organizar a centralização título e skills [ok]
     b. Organizar a skill-list [ok]
