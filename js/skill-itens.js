@@ -5,7 +5,7 @@
 //  c) Cria a função que irá percorrer o mapa colhendo as informações [ok]
 //  d) Ao carregar a página, chama função que executa a repetição [ok]
 //
-//Plano C: Implementar juntos o Plano A e B
+//Plano C: Implementar juntos o Plano A e B [ok]
 //Plano D: Implementar para que o Plano A funcione com focus
 
 const mySkills = new Map([
@@ -66,7 +66,7 @@ function deploySkill(value) {
     <div class="skill-wrapper-details">
       <dd class="title -skill">${value.skillTitle}</dd>
       <dd class="skill-measure">
-        <meter class="measure" value="${value.skillValue}" max="100" title="${value.skillTitle} %">0%</meter>
+        <meter id=${value.skillTitle} class="measure" value="0" max="100" title="${value.skillTitle} %">0%</meter>
       </dd>
     </div>
   </div>
