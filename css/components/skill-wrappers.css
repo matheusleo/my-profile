@@ -1,0 +1,16 @@
+.skill-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  height: 90px;
+  width: 430px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-wrapper-details {
+  display: flex;
+  height: 90px;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}

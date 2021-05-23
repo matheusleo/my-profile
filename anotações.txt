@@ -1,1 +1,17 @@
-A próxima aula à ser assistida é a do [Módulo 3.01]
+A próxima aula à ser assistida é a do [Módulo 4.01]
+
+Para fazer:
+    1. Organizar o posicionamento da section "Skills" [ok]
+    2. Codar o JS que cria o HTML dinamicamente [ok]
+    3. Implementar a animação em todos as "skills" [ok]
+    4. Corrigir o posicionamento das "skills" [ok]
+        4. Corrigir alinhamento vertical UX [ok]
+    5. Pensar em uma maneira em que não seja necessária repetir o JS
+
+Plano 1 - posicionamento
+    a. Organizar a centralização título e skills [ok]
+    b. Organizar a skill-list [ok]
+        ideias para b:
+            - utilizar o skill-list com display flex como wrapper e flex-flow com row wrap
+            para organizar, estabelecer assim largura maxima (max-width: NUMpx) e 
+            assim irá ficar dois skills por linha da maneira que eu desejo
