@@ -14,8 +14,16 @@
 //    2. Adicionar um eventListener para a saída do mouse [ok]
 //    3. Modificar o value da barra após o saída do mouse [ok]
 //    3.2 Modificar a porcentagem dentro do meter após a saída [ok]
+//
+//Plano D: Criar JS que será responsavel por modificar os values ao ser clicado
+//Plano E: Implementar para que o Plano A funcione com focus
 
 const skillBarHTML5 = document.querySelector("#HTML5");
+const skillBarCSS3 = document.querySelector("#CSS3");
+const skillBarJS = document.querySelector("#JavaScript");
+const skillBarReact = document.querySelector("#React");
+const skillBarUX = document.querySelector("#UX");
+
 skillBarHTML5.addEventListener("mouseover", () => {
   skillBarHTML5.value = 60;
   skillBarHTML5.textContent = "60%";
@@ -25,7 +33,6 @@ skillBarHTML5.addEventListener("mouseout", () => {
   skillBarHTML5.textContent = "0%";
 });
 
-const skillBarCSS3 = document.querySelector("#CSS3");
 skillBarCSS3.addEventListener("mouseover", () => {
   skillBarCSS3.value = 50;
   skillBarCSS3.textContent = "50%";
@@ -35,7 +42,6 @@ skillBarCSS3.addEventListener("mouseout", () => {
   skillBarCSS3.textContent = "0%";
 });
 
-const skillBarJS = document.querySelector("#JavaScript");
 skillBarJS.addEventListener("mouseover", () => {
   skillBarJS.value = 40;
   skillBarJS.textContent = "40%";
@@ -45,7 +51,6 @@ skillBarJS.addEventListener("mouseout", () => {
   skillBarJS.textContent = "0%";
 });
 
-const skillBarReact = document.querySelector("#React");
 skillBarReact.addEventListener("mouseover", () => {
   skillBarReact.value = 10;
   skillBarReact.textContent = "10%";
@@ -55,7 +60,6 @@ skillBarReact.addEventListener("mouseout", () => {
   skillBarReact.textContent = "0%";
 });
 
-const skillBarUX = document.querySelector("#UX");
 skillBarUX.addEventListener("mouseover", () => {
   skillBarUX.value = 10;
   skillBarUX.textContent = "10%";
