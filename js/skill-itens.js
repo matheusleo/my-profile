@@ -1,8 +1,9 @@
-//Plano B: Criar JS com objetos que implementa o código repetido
+//Plano B: Criar JS com mapa que implementa o código repetido
 // 3 momentos
-//  a) Cria objeto com os mapa dados {skill, imagem da skill, valor da skill}
-//  b) Cria a função que irá de percorrer o objeto colhendo as informações, montando o código e implementado
-//  c) Ao carregar a pagina chama função que executa a repetição
+//  a) Cria objeto com os mapa dados {skill, imagem da skill, valor da skill} [ok]
+//  b) Cria a função que irá montar o código repetido  e localiza corretamente no código [ok]
+//  c) Cria a função que irá percorrer o mapa colhendo as informações [ok]
+//  d) Ao carregar a página, chama função que executa a repetição [ok]
 //
 //Plano C: Implementar juntos o Plano A e B
 //Plano D: Implementar para que o Plano A funcione com focus
@@ -54,4 +55,24 @@ const mySkills = new Map([
     },
   ],
 ]);
+const skillList = document.querySelector("#skill-list");
 
+function deploySkill(value) {
+  const skillStructure = `
+  <div class="skill-wrapper">
+    <dt class="skill-icon">
+      <img src=${value.skillIcon}>
+    </dt>
+    <div class="skill-wrapper-details">
+      <dd class="title -skill">${value.skillTitle}</dd>
+      <dd class="skill-measure">
+        <meter class="measure" value="${value.skillValue}" max="100" title="${value.skillTitle} %">0%</meter>
+      </dd>
+    </div>
+  </div>
+  `;
+
+  skillList.insertAdjacentHTML("beforeend", skillStructure);
+}
+
+mySkills.forEach(deploySkill);
