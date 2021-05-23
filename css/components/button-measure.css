@@ -1,0 +1,24 @@
+.button-measure {
+  position: absolute;
+  background-color: var(--color-second);
+  height: 50px;
+  width: 50px;
+  border: 0px;
+  right: 7.5%;
+  bottom: 5%;
+  box-shadow: 4px 4px 0px var(--color-black-first);
+  transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
+}
+
+.button-measure::before {
+  content: "";
+  display: block;
+  border-top: 5px dashed var(--color-fourth);
+  background-color: var(--color-first);
+  box-shadow: 0px 0px 3px var(--color-fourth);
+}
+
+.button-measure:hover,
+.button-measure:focus {
+  transform: scale(1.05);
+}

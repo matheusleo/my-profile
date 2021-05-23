@@ -6,7 +6,6 @@
 //  d) Ao carregar a página, chama função que executa a repetição [ok]
 //
 //Plano C: Implementar juntos o Plano A e B [ok]
-//Plano D: Implementar para que o Plano A funcione com focus
 
 const mySkills = new Map([
   [

@@ -5,13 +5,28 @@ Para fazer:
     2. Codar o JS que cria o HTML dinamicamente [ok]
     3. Implementar a animação em todos as "skills" [ok]
     4. Corrigir o posicionamento das "skills" [ok]
-        4. Corrigir alinhamento vertical UX [ok]
-    5. Pensar em uma maneira em que não seja necessária repetir o JS
+        4.1 Corrigir alinhamento vertical UX [ok]
+    5. Codar o JS que modifica os values ao clicar no botão
+    6. Pensar em uma maneira em que não seja necessária repetir o JS
+
+Corrigir depois:
+    1. Adicionar lang nos locais que estão em inglês - HTML
 
 Plano 1 - posicionamento
+
     a. Organizar a centralização título e skills [ok]
     b. Organizar a skill-list [ok]
         ideias para b:
             - utilizar o skill-list com display flex como wrapper e flex-flow com row wrap
             para organizar, estabelecer assim largura maxima (max-width: NUMpx) e 
             assim irá ficar dois skills por linha da maneira que eu desejo
+
+Plano 5 - botão
+    A ideia é criar um botão que, ao clicar, ele acesse e modifique os valores que estão sendo 
+    dispostos na tela dos meters.
+
+    a) Criar o botão e ter acesso a ele - criar e utilizar o document e selecionar ele [ok]
+    b) Adicionar eventListener para que possa saber quando o botão foi clicado [ok]
+    c) Acessar o codigo de cada uma das meters e seus respectivos values [ok]
+    d) Ter acesso aos valores finais de cada um - ou seja, ter um objeto com esses valores [ok]
+    e) Susbtituir os values pelos valores finais [ok]
