@@ -1,10 +1,17 @@
-.section.-skills {
+.section {
   position: relative;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
+  padding: 50px 0px;
+}
+
+.-skills {
   /*justify-content: center;
   height: 600px;*/
-  padding: 50px 0px;
   background-color: var(--color-first);
+}
+
+.section.-projects {
+  background-color: var(--color-black-first);
 }
