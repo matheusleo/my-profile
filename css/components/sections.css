@@ -4,6 +4,7 @@
   flex-flow: column wrap;
   align-content: center;
   padding: 50px 0px;
+  border-bottom: 8px solid var(--color-black-second);
 }
 
 .-skills {
