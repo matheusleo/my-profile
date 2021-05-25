@@ -6,7 +6,7 @@ Para fazer:
     3. Implementar a animação em todos as "skills" [ok]
     4. Corrigir o posicionamento das "skills" [ok]
         4.1 Corrigir alinhamento vertical UX [ok]
-    5. Codar o JS que modifica os values ao clicar no botão
+    5. Codar o JS que modifica os values ao clicar no botão [ok]
     6. Pensar em uma maneira em que não seja necessária repetir o JS
 
 Corrigir depois:
@@ -30,3 +30,18 @@ Plano 5 - botão
     c) Acessar o codigo de cada uma das meters e seus respectivos values [ok]
     d) Ter acesso aos valores finais de cada um - ou seja, ter um objeto com esses valores [ok]
     e) Susbtituir os values pelos valores finais [ok]
+
+Plano * - estudo
+    a) Estudar arquitetura do RSCSS com o William Justen [ok]
+    b) Pesquisar propriedade transform
+    c) o que é o TDD? [ok]
+    d) o que é o SSH key? [ok]
+    e) <article>
+
+Plano ** - correções
+    a) Corrigir a animação do botão skill-measure e add propriedade do cursor
+    b) Criar comportamento padrão e variações das section's-> Design pattern
+    c) Utilizar pseudoclass first-child para modificar o comporamento dentro da <dl>
+    d) Criar o código responsável pela edição no Firefox do <meter>
+    e) Adicionar texto alternativo (alt="") às imagens da Skill List
+    f) Em uma refatoração final, aplicar o RSCSS
