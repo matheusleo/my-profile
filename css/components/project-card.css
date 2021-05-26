@@ -3,8 +3,16 @@
   height: 280px;
   width: 280px;
   text-align: center;
-  background-color: #fff;
   box-sizing: border-box;
+  box-shadow: 10px 10px 0px var(--color-third);
+}
+
+.project-card:nth-child(odd) {
+  background-color: var(--color-second);
+}
+
+.project-card:nth-child(even) {
+  background-color: var(--color-sixth);
 }
 
 .project {
