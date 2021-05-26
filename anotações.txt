@@ -1,16 +1,11 @@
 A próxima aula à ser assistida é a do [Módulo 5.01]
 
-Para fazer:
-    1. Criar o card de projetos
-
-Plano * - estudo
-    e) <article>
-
 Plano ** - correções
     a) Corrigir a animação do botão skill-measure e add propriedade do cursor
-    b) Criar comportamento padrão e variações das section's-> Design pattern
     c) Utilizar pseudoclass first-child para modificar o comporamento dentro da <dl>
     d) Criar o código responsável pela edição no Firefox do <meter>
     e) Adicionar texto alternativo (alt="") às imagens da Skill List
-    f) Em uma refatoração final, aplicar o RSCSS
     g) Adicionar lang nos locais que estão em inglês - HTML
+
+Para fazer:
+    1. Criar JS que cria dinamicamente o project card's

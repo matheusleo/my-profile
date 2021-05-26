@@ -1,12 +1,3 @@
-//Plano B: Criar JS com mapa que implementa o código repetido
-// 3 momentos
-//  a) Cria objeto com os mapa dados {skill, imagem da skill, valor da skill} [ok]
-//  b) Cria a função que irá montar o código repetido  e localiza corretamente no código [ok]
-//  c) Cria a função que irá percorrer o mapa colhendo as informações [ok]
-//  d) Ao carregar a página, chama função que executa a repetição [ok]
-//
-//Plano C: Implementar juntos o Plano A e B [ok]
-
 const mySkills = new Map([
   [
     "html5",
