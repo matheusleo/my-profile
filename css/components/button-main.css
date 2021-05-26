@@ -20,3 +20,7 @@
   background-color: var(--color-fifth);
   transform: scale(1.05);
 }
+
+.button-main:active {
+  transform: scale(0.95);
+}
