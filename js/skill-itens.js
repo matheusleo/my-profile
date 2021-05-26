@@ -56,7 +56,7 @@ function deploySkill(value) {
   const skillStructure = `
   <div class="skill-wrapper">
     <dt class="skill-icon">
-      <img src=${value.skillIcon}>
+      <img src=${value.skillIcon} alt="Logo do ${value.skillTitle} em PixelArt">
     </dt>
     <div class="skill-wrapper-details">
       <dd class="title-main -skill" lang=${value.skillLang}>${value.skillTitle}</dd>
