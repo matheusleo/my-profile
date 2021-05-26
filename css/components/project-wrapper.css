@@ -1,0 +1,9 @@
+.project-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1115px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}

@@ -63,7 +63,7 @@ function deploySkill(value) {
       <img src=${value.skillIcon}>
     </dt>
     <div class="skill-wrapper-details">
-      <dd class="title -skill">${value.skillTitle}</dd>
+      <dd class="title-main -skill">${value.skillTitle}</dd>
       <dd class="skill-measure">
         <meter id=${value.skillTitle} class="measure" value="0" max="100" title="${value.skillTitle} ${value.skillValue}%">0%</meter>
       </dd>

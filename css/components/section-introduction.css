@@ -1,4 +1,4 @@
-.introduction {
+.section-introduction {
   display: flex;
   height: 695px;
   background-color: var(--color-fourth);
@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 1165px) {
-  .introduction {
+  .section-introduction {
     height: 1080px;
     flex-flow: column-reverse wrap;
     justify-content: center;

@@ -1,4 +1,4 @@
-.title {
+.title-main {
   display: inline-block;
   font-family: inherit;
   font-size: 40px;
@@ -6,7 +6,7 @@
   text-shadow: 4px 4px 0px var(--color-black-first);
   margin-bottom: 30px;
 }
-.title.-section {
+.title-main.-section {
   display: inline;
   color: var(--color-third);
   text-shadow: none;
@@ -15,7 +15,7 @@
   margin-right: auto;
 }
 
-.title.-skill {
+.title-main.-skill {
   font-size: 25px;
   color: var(--color-third);
   text-shadow: none;

@@ -1,17 +1,17 @@
-.section {
+.section-main {
   position: relative;
   display: flex;
   flex-flow: column wrap;
   align-content: center;
   padding: 50px 0px;
+  border-bottom: 8px solid var(--color-black-second);
 }
 
-.-skills {
-  /*justify-content: center;
-  height: 600px;*/
+.section-main.-skills {
   background-color: var(--color-first);
 }
 
-.section.-projects {
+.section-main.-projects {
   background-color: var(--color-black-first);
+  padding: 50px 0px 75px;
 }
