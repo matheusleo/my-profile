@@ -1,0 +1,12 @@
+.project-card {
+  display: inline-block;
+  height: 280px;
+  width: 280px;
+  text-align: center;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.project {
+  width: 90%;
+}
