@@ -1,4 +1,4 @@
-.button {
+.button-main {
   font-family: "Fira Code", monospace;
   font-size: inherit;
   border-radius: 0px;
@@ -15,8 +15,8 @@
   transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
 }
 
-.button:focus,
-.button:hover {
+.button-main:focus,
+.button-main:hover {
   background-color: var(--color-fifth);
   transform: scale(1.05);
 }
