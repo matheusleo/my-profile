@@ -9,6 +9,12 @@ Plano A - Criar a section dinâmica que apresentará a descrição do projeto
         e o link para visitar o projeto
         Etapas: 
             a) Criar o HTML e CSS da section desecription
+
             b) Criar JS responsável por implementar a section description 
             ao clicar no banner
-            c) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
+
+            c) Criar animação para que o project card reaja com o mouseover
+                c.I) Adicionar animação para que o project card cresça com o mouse over
+                c.II) Adicinar footer com o escrito "Conheça mais sobre o projeto" ou algo do gênero
+            
+            d) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
