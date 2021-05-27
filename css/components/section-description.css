@@ -1,0 +1,6 @@
+.section-description {
+  background-color: var(--color-first);
+  border: 8px solid var(--color-black-third);
+  height: 515px;
+  padding: 80px 0px;
+}
