@@ -1,5 +1,14 @@
 .description-project {
+  display: inline-block;
   font-family: "Fira Code", monospace;
   font-size: 25px;
   max-width: 865px;
+}
+
+.description-link {
+  font-family: "Fira Code", monospace;
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--color-black-first);
+  font-weight: bold;
 }
