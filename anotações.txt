@@ -9,6 +9,7 @@ Plano A - Criar a section dinâmica que apresentará a descrição do projeto
         e o link para visitar o projeto
         Etapas: 
             a) Criar o HTML e CSS da section desecription
+                utilizar seletor de filho no (A>B) para solucionar o problema do project-card
 
             b) Criar JS responsável por implementar a section description 
             ao clicar no banner

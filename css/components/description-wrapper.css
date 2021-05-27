@@ -1,7 +1,7 @@
 .description-wrapper {
   display: flex;
   flex-flow: column wrap;
-  height: 240px;
+  height: 280px;
   justify-content: space-between;
 }
 
@@ -9,7 +9,7 @@
   display: inline-block;
   font-family: "Fira Code", monospace;
   font-size: 25px;
-  max-width: 865px;
+  max-width: 600px;
   line-height: 32.8px;
 }
 
@@ -20,4 +20,5 @@
   color: var(--color-black-first);
   font-weight: bold;
   display: inline;
+  max-width: 275px;
 }
