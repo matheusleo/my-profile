@@ -17,6 +17,14 @@
   background-color: var(--color-sixth);
 }
 
+.project-card.-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  cursor: grab;
+}
+
 .project {
   width: 90%;
 }
