@@ -52,3 +52,7 @@
 .header-menu .options .option:hover::before {
   background-color: var(--color-fifth);
 }
+
+.header-menu .options .option:active {
+  transform: scale(0.95);
+}
