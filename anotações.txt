@@ -1,5 +1,14 @@
-A próxima aula à ser assistida é a do [Módulo 5.04]
+A próxima aula à ser assistida é a do [Módulo 6.01]
 
 Plano ** - correções
     c) Utilizar pseudoclass first-child para modificar o comporamento dentro da <dl>
     d) Criar o código responsável pela edição no Firefox do <meter>
+
+
+Plano A - Criar a section dinâmica que apresentará a descrição do projeto 
+        e o link para visitar o projeto
+        Etapas: 
+            a) Criar o HTML e CSS da section desecription
+            b) Criar JS responsável por implementar a section description 
+            ao clicar no banner
+            c) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"

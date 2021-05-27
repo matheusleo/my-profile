@@ -5,7 +5,6 @@ const myProjects = new Map([
     "AluraFlix",
     {
       projectLink: "https://matheusleo.github.io/AluraFlix/",
-      padTop: 52.225,
       projectImage:
         "https://github.com/matheusleo/my-profile/blob/master/assets/img/aluraflix.png?raw=true",
       projectTitle: "AluraFlix",
@@ -15,7 +14,6 @@ const myProjects = new Map([
     "Curtas.tv",
     {
       projectLink: "https://squad-08.github.io/curtas.tv/",
-      padTop: 14,
       projectImage:
         "https://github.com/matheusleo/my-profile/blob/master/assets/img/curtas.tv.png?raw=true",
       projectTitle: "Curtas.tv",
@@ -25,11 +23,9 @@ const myProjects = new Map([
 
 function createProjectCard(project) {
   const projectCard = `
-    <article class="project-card">
-        <a href=${project.projectLink} rel="noreferrer noopener" target="_blank">
-            <img style="padding-top: ${project.padTop}px;" src=${project.projectImage} alt="Logo do projeto ${project.projectTitle}" class="project">
-        </a>
-    </article>
+    <button class="project-card">
+      <img src=${project.projectImage} alt="Logo do projeto ${project.projectTitle}" class="project">
+    </button>
     `;
 
   listProjects.insertAdjacentHTML("beforeend", projectCard);
