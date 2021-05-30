@@ -8,6 +8,8 @@ const myProjects = new Map([
       projectImage:
         "https://github.com/matheusleo/my-profile/blob/master/assets/img/aluraflix.png?raw=true",
       projectTitle: "AluraFlix",
+      projectDescription:
+        "O AluraFlix foi o primeiro projeto e mais simples que eu desenvolvi utilizando HTML, CSS e JavaScript acompanhando as lives de programação na twitch do MarcoBrunoDev. Seu conceito foi elaborado durante a Imersão Dev da Alura, em 2021.",
     },
   ],
   [
@@ -16,7 +18,9 @@ const myProjects = new Map([
       projectLink: "https://squad-08.github.io/curtas.tv/",
       projectImage:
         "https://github.com/matheusleo/my-profile/blob/master/assets/img/curtas.tv.png?raw=true",
-      projectTitle: "Curtas.tv",
+      projectTitle: "CurtasTv",
+      projectDescription:
+        "O conceito veio de criar uma plataforma na qual, ao invés de precisar procurar curta por curta no Youtube que é uma plataforma com milhões de vídeos, o usuário poderia ter fácil acesso a uma coletânea de curtas, separados por gênero. Assim, surgiu o Curtas Tv.",
     },
   ],
 ]);
