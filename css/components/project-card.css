@@ -9,11 +9,11 @@
   cursor: pointer;
 }
 
-.project-card:nth-child(odd) {
+.project-wrapper > .project-card:nth-child(odd) {
   background-color: var(--color-second);
 }
 
-.project-card:nth-child(even) {
+.project-wrapper > .project-card:nth-child(even) {
   background-color: var(--color-sixth);
 }
 
