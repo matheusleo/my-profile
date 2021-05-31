@@ -28,7 +28,7 @@ function createDescription(project) {
   }
 
   const projectDescription = `
-  <section class="section-description">
+  <section class="section-description" id="section-description">
       <h3 class="title-main -project">${project.projectTitle}</h3>
   
       <article class="project-description">
@@ -50,6 +50,11 @@ function createDescription(project) {
   `;
 
   listProjects.insertAdjacentHTML("beforeend", projectDescription);
+}
+
+function cleanDescription() {
+  const sectionDescription = document.querySelector("#section-description");
+  listProjects.removeChild(sectionDescription);
 }
 
 projectAlura.addEventListener("click", () =>
