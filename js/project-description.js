@@ -21,7 +21,7 @@ function createDescription(project) {
   const projectDescription = `
   <section class="section-description" id="section-description">
     <h3 class="title-main -project">${project.projectTitle}</h3>
-
+    <button class="button-dark" id="button-clean">×</button>
     <article class="project-description">
         <figure class="project-card -description" ${backgroundColor}>
           <img
