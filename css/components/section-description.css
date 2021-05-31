@@ -8,6 +8,7 @@
   align-items: flex-start;
   align-content: space-between;
   width: 100%;
+  position: relative;
 }
 
 .project-description {
