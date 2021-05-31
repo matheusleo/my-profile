@@ -21,12 +21,18 @@ const projectAlura = document.querySelector("#AluraFlix");
 const projectCurtasTv = document.querySelector("#CurtasTv");
 
 function createDescription(project) {
+  if (project.projectBg == 1) {
+    var backgroundColor = "style='background-color: var(--color-second)'";
+  } else {
+    var backgroundColor = "style='background-color: var(--color-sixth)'";
+  }
+
   const projectDescription = `
   <section class="section-description">
       <h3 class="title-main -project">${project.projectTitle}</h3>
   
       <article class="project-description">
-          <figure class="project-card -description">
+          <figure class="project-card -description" ${backgroundColor}>
                   <img
                   class="project" 
                   src=${project.projectImage} 
