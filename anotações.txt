@@ -4,6 +4,7 @@ Plano ** - correções
     c) Utilizar pseudoclass first-child para modificar o comporamento dentro da <dl>
     d) Criar o código responsável pela edição no Firefox do <meter>
     e) Melhorar responsividade do site
+    f) Como melhorar a qualidade do código dentro do "button-dark.css"
 
 
 Plano A - Criar a section dinâmica que apresentará a descrição do projeto 
