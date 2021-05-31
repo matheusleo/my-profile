@@ -2,6 +2,16 @@
 //    1. o problema de onde o código será implementado?  - tlvz display: grid
 //    2. Como fazer para que a sequência não seja simplesmente quebrada?
 //    4. Adicionar o link do repositório no GitHub do projeto
+//
+//Criar funcionalidade do button-clean
+//  O que eu quero?
+//    Eu quero que ao clicar no button-clean, a descrição que está na tela seja removida
+//
+//  Passo A Passo
+//    1. Selecionar button-clean [ok]
+//    2. Adicionar um eventListener de click ao button [ok]
+//    3. Executar a função cleanDescription() [ok]
+//    4. Onde posicionar?
 
 const projectAlura = document.querySelector("#AluraFlix");
 const projectCurtasTv = document.querySelector("#CurtasTv");
@@ -41,7 +51,12 @@ function createDescription(project) {
   `;
 
   listProjects.insertAdjacentHTML("beforeend", projectDescription);
+
+  const buttonClean = document.querySelector("#button-clean");
+  buttonClean.addEventListener("click", cleanDescription);
 }
+
+function createButtonClean() {}
 
 function cleanDescription() {
   const sectionDescription = document.querySelector("#section-description");
