@@ -1,4 +1,4 @@
-.button-measure {
+.button-dark {
   position: absolute;
   background-color: var(--color-second);
   height: 50px;
@@ -11,7 +11,16 @@
   cursor: pointer;
 }
 
-.button-measure::before {
+.button-dark:hover,
+.button-dark:focus {
+  transform: scale(1.05);
+}
+
+.button-dark:active {
+  transform: scale(0.85);
+}
+
+#button-measure::before {
   content: "";
   display: block;
   border-top: 5px dashed var(--color-fourth);
@@ -19,16 +28,7 @@
   box-shadow: 0px 0px 3px var(--color-fourth);
 }
 
-.button-measure:hover,
-.button-measure:focus {
-  transform: scale(1.05);
-}
-
-.button-measure:active {
-  transform: scale(0.85);
-}
-
-.button-measure:active::before {
+#button-measure:active::before {
   border-top: 5px dashed var(--color-first);
   background-color: var(--color-fourth);
   box-shadow: 0px 0px 3px var(--color-first);
