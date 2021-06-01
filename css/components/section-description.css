@@ -2,6 +2,7 @@
   border: 0px;
   height: 0px;
   overflow: hidden;
+  width: 100%;
   transition: height, border 1000ms ease-in-out;
 }
 
