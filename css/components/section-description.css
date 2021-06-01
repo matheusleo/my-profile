@@ -3,7 +3,7 @@
   height: 0px;
   overflow: hidden;
   width: 100%;
-  transition: height, border 1000ms ease-in-out;
+  transition: height 1000ms ease-in-out, border 1000ms ease-in-out;
 }
 
 .section-description.-active {
@@ -19,7 +19,7 @@
   height: 353px;
   position: relative;
   overflow: hidden;
-  transition: height, border 1000ms ease-in-out;
+  transition: height 1000ms ease-in-out, border 1000ms ease-in-out;
 }
 
 .project-description {
