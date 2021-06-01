@@ -1,0 +1,21 @@
+.section-description {
+  background-color: var(--color-first);
+  border: 8px solid var(--color-black-third);
+  padding: 80px 75px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.project-description {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
