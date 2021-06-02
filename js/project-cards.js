@@ -31,6 +31,7 @@ function createProjectCard(project) {
   const projectCard = `
     <button id=${project.projectTitle} class="project-card">
       <img src=${project.projectImage} alt="Logo do projeto ${project.projectTitle}" class="project">
+      <div class="project-overlay">Conhecer mais sobre</div>
     </button>
     `;
 

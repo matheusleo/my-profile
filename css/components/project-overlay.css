@@ -1,0 +1,16 @@
+.project-overlay {
+  font-family: "Press Start 2P", cursive;
+  color: var(--color-third);
+  background-color: rgba(7, 3, 26, 0.75);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 22.5px 0px;
+  opacity: 0;
+  transition: 500ms cubic-bezier(0.74, 0.44, 0.23, 0.94);
+}
+
+.project-card:hover .project-overlay {
+  opacity: 1;
+}

@@ -5,22 +5,5 @@ Plano ** - correções
     d) Criar o código responsável pela edição no Firefox do <meter>
     e) Melhorar responsividade do site - <meta name="viewport" content="width=device-width, initial-scale=1.0">
     f) Como melhorar a qualidade do código dentro do "button-dark.css"
-
-
-Plano A - Criar a section dinâmica que apresentará a descrição do projeto 
-        e o link para visitar o projeto
-        Etapas:  
-            c) Criar animação para que o project card reaja com o mouseover
-                c.II) Adicinar footer com o escrito "Conheça mais sobre o projeto" ou algo do gênero
-            
-            d) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
-
-Plano B - Criar animação da section description
-    O que eu quero fazer?
-        Eu quero que haja a section description com uma animação de abertura e fechamento.
-
-Passo A Passo do Plano B:
-    1. Criar classes separadas para o section description active e disabled
-    2. Mudar lógica de implementação dos project-cards
-    3. Modificar o cleanDescription()
-    4. Modificar o JS para que ele funcione com as classes active e disabled
+    g) Adicionar um fallback para não haver duplicação da descrição com double-click
+    h) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"

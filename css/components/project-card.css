@@ -8,6 +8,7 @@
   box-shadow: 10px 10px 0px var(--color-third);
   cursor: pointer;
   transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
+  position: relative;
 }
 
 .project-wrapper > .project-card:hover {
