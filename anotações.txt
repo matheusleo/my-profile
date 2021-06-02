@@ -1,5 +1,9 @@
-A próxima aula à ser assistida é a do [Módulo 5.04]
+A próxima aula à ser assistida é a do [Módulo 6.01]
 
 Plano ** - correções
     c) Utilizar pseudoclass first-child para modificar o comporamento dentro da <dl>
     d) Criar o código responsável pela edição no Firefox do <meter>
+    e) Melhorar responsividade do site - <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    f) Como melhorar a qualidade do código dentro do "button-dark.css"
+    g) Adicionar um fallback para não haver duplicação da descrição com double-click
+    h) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
