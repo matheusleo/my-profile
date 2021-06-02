@@ -4,34 +4,15 @@
   width: 280px;
   text-align: center;
   box-sizing: border-box;
-  border: 0px;
   box-shadow: 10px 10px 0px var(--color-third);
-  cursor: pointer;
-  transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
-  position: relative;
 }
 
-.project-wrapper > .project-card:hover {
-  transform: scale(1.05);
-}
-.project-wrapper > .project-card:active {
-  transform: scale(0.98);
-}
-
-.project-wrapper > .project-card:nth-child(odd) {
+.project-card:nth-child(odd) {
   background-color: var(--color-second);
 }
 
-.project-wrapper > .project-card:nth-child(even) {
+.project-card:nth-child(even) {
   background-color: var(--color-sixth);
-}
-
-.project-card.-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  cursor: grab;
 }
 
 .project {

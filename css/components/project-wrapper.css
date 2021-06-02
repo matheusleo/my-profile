@@ -6,13 +6,4 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin-bottom: 25px;
-}
-
-.project-wrapper > .project-card {
-  margin-bottom: 50px;
-}
-
-.project-wrapper > .section-description {
-  margin-bottom: 50px;
 }
