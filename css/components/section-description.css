@@ -6,6 +6,7 @@
   width: 100%;
   transition: 1000ms ease-in-out;
   background-color: var(--color-first);
+  position: relative;
 }
 
 .section-description.-active {
