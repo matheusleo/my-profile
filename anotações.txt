@@ -3,23 +3,7 @@ A próxima aula à ser assistida é a do [Módulo 6.01]
 Plano ** - correções
     c) Utilizar pseudoclass first-child para modificar o comporamento dentro da <dl>
     d) Criar o código responsável pela edição no Firefox do <meter>
-    e) Melhorar responsividade do site
+    e) Melhorar responsividade do site - <meta name="viewport" content="width=device-width, initial-scale=1.0">
     f) Como melhorar a qualidade do código dentro do "button-dark.css"
-
-
-Plano A - Criar a section dinâmica que apresentará a descrição do projeto 
-        e o link para visitar o projeto
-        Etapas: 
-            a) Criar o HTML e CSS da section desecription [ok] 
-                utilizar seletor de filho no (A>B) para solucionar o problema do project-card [ok] 
-
-            b) Criar JS responsável por implementar a section description 
-            ao clicar no banner [ok]
-
-            c) Criar animação para que o project card reaja com o mouseover
-                c.I) Adicionar animação para que o project card cresça com o mouse over [ok]
-                c.II) Adicinar footer com o escrito "Conheça mais sobre o projeto" ou algo do gênero
-            
-            d) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    g) Adicionar um fallback para não haver duplicação da descrição com double-click
+    h) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"

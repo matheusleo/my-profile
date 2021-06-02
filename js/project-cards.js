@@ -1,4 +1,4 @@
-const listProjects = document.querySelector("#projects-list");
+const sectionDescription = document.querySelector("#section-description");
 
 const myProjects = new Map([
   [
@@ -31,10 +31,11 @@ function createProjectCard(project) {
   const projectCard = `
     <button id=${project.projectTitle} class="project-card">
       <img src=${project.projectImage} alt="Logo do projeto ${project.projectTitle}" class="project">
+      <div class="project-overlay">Conhecer mais sobre</div>
     </button>
     `;
 
-  listProjects.insertAdjacentHTML("beforeend", projectCard);
+  sectionDescription.insertAdjacentHTML("beforebegin", projectCard);
 }
 
 myProjects.forEach(createProjectCard);
