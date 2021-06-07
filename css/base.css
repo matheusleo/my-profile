@@ -13,6 +13,15 @@
   --color-sucess: #62c370;
   --color-error: #ba1f33;
   --color-warning: #ceb02a;
+
+  --desktop-size: 1368px;
+  --laptop-size: 1200px;
+  --medium-size: 980px;
+  --tablet-size: 768px;
+  --small-size: 560px;
+  --phone-size: 475px;
+
+  font-size: 62.5%;
 }
 
 body {
