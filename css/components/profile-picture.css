@@ -1,4 +1,10 @@
 .profile-picture {
-  box-shadow: 4px 4px 0px var(--color-black-first);
-  border: 5px solid var(--color-first);
+  box-shadow: 0.4em 0.4em 0px var(--color-black-first);
+  border: 0.5em solid var(--color-first);
+}
+
+@media screen and (max-width: 1200px) {
+  .profile-picture {
+    transform: scale(0.9);
+  }
 }

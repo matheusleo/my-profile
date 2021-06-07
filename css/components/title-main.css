@@ -1,10 +1,22 @@
 .title-main {
   display: inline-block;
   font-family: inherit;
-  font-size: 40px;
+  font-size: 4rem;
   color: var(--color-first);
-  text-shadow: 4px 4px 0px var(--color-black-first);
-  margin-bottom: 30px;
+  text-shadow: 0.1em 0.1em 0px var(--color-black-first);
+  margin-bottom: 0.75em;
+}
+
+@media screen and (max-width: 1200px) {
+  .title-main.-introduction {
+    font-size: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .title-main.-introduction {
+    font-size: 3rem;
+  }
 }
 
 .title-main.-section {

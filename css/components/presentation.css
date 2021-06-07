@@ -6,16 +6,21 @@
 .introduction-banner {
   display: flex;
   background-color: var(--color-second);
-  box-shadow: 10px 10px 0px var(--color-black-first);
+  box-shadow: 1em 1em 0px var(--color-black-first);
   flex-flow: column wrap;
-  margin: 0px 0px 40px;
-  padding: 40px 70px;
+  margin: 0 0 4em;
+  padding: 4em 7em;
   text-align: center;
 }
 
-@media (max-width: 1165px) {
+@media screen and (max-width: 980px) {
   .introduction-wrapper {
     position: static;
-    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .introduction-banner {
+    padding: 4em 3.25em;
   }
 }

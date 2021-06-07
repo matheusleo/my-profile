@@ -1,7 +1,13 @@
 .subtitle-main {
   display: inline-block;
   font-family: inherit;
-  font-size: 30px;
+  font-size: 3rem;
   color: var(--color-third);
-  text-shadow: 4px 4px 0px var(--color-black-first);
+  text-shadow: 0.2em 0.2em 0px var(--color-black-first);
+}
+
+@media screen and (max-width: 1200px) {
+  .subtitle-main.-introduction {
+    font-size: 2.25rem;
+  }
 }
