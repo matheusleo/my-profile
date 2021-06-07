@@ -7,6 +7,29 @@
   margin-bottom: 0.75em;
 }
 
+.title-main.-section {
+  display: inline;
+  color: var(--color-third);
+  text-shadow: 0 0.025em 0.1em #000;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-main.-skill {
+  font-size: 2.5rem;
+  color: var(--color-third);
+  text-shadow: 0px 0.04em 0.16em #000;
+  margin-bottom: 0px;
+}
+
+.title-main.-project {
+  font-size: 33px;
+  color: var(--color-third);
+  text-shadow: none;
+  margin-bottom: 40px;
+  text-shadow: 0px 1px 4px #000;
+}
 @media screen and (max-width: 1200px) {
   .title-main.-introduction {
     font-size: 3.25rem;
@@ -17,28 +40,7 @@
   .title-main.-introduction {
     font-size: 3rem;
   }
-}
-
-.title-main.-section {
-  display: inline;
-  color: var(--color-third);
-  text-shadow: 0px 1px 4px #000;
-  margin-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.title-main.-skill {
-  font-size: 25px;
-  color: var(--color-third);
-  text-shadow: 0px 1px 4px #000;
-  margin-bottom: 0px;
-}
-
-.title-main.-project {
-  font-size: 33px;
-  color: var(--color-third);
-  text-shadow: none;
-  margin-bottom: 40px;
-  text-shadow: 0px 1px 4px #000;
+  .title-main.-section {
+    font-size: 3.5rem;
+  }
 }
