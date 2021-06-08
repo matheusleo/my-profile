@@ -1,16 +1,27 @@
 .skill-wrapper {
   display: flex;
   flex-flow: row wrap;
-  height: 90px;
-  width: 430px;
+  height: 9em;
+  width: 43em;
   justify-content: space-between;
   align-items: center;
 }
 
 .skill-wrapper-details {
   display: flex;
-  height: 90px;
+  height: 9em;
   flex-flow: column wrap;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+@media screen and (max-width: 475px) {
+  .skill-wrapper {
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+
+  .skill-wrapper-details {
+    justify-content: space-evenly;
+  }
 }

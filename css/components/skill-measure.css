@@ -3,14 +3,14 @@
 }
 
 .measure {
-  width: 320px;
-  height: 50px;
+  width: 32em;
+  height: 5em;
 }
 
 .measure::-webkit-meter-bar {
   background-color: var(--color-fourth);
   border-radius: 0px;
-  border: 5px solid var(--color-second);
+  border: 0.5em solid var(--color-second);
   background-origin: border-box;
   box-sizing: content-box;
 }
@@ -18,4 +18,10 @@
 .measure::-webkit-meter-optimum-value {
   background-color: var(--color-second);
   transition: 2000ms 500ms;
+}
+
+@media screen and (max-width: 475px) {
+  .measure {
+    width: calc(100vw - 16em);
+  }
 }

@@ -44,3 +44,9 @@
     font-size: 3.5rem;
   }
 }
+
+@media screen and (max-width: 475px) {
+  .title-main.-skill {
+    font-size: min(2rem, 5vw);
+  }
+}
