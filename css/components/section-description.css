@@ -1,7 +1,7 @@
 .section-description.-disabled {
-  border: 0px solid var(--color-black-third);
-  height: 0px;
-  padding: 0px;
+  border: 0 solid var(--color-black-third);
+  height: 0;
+  padding: 0;
   overflow: hidden;
   width: 100%;
   transition: 1000ms ease-in-out;
@@ -11,15 +11,15 @@
 
 .section-description.-active {
   background-color: var(--color-first);
-  border: 8px solid var(--color-black-third);
-  padding: 80px 75px;
+  border: 0.8em solid var(--color-black-third);
+  padding: 8em 7.5em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
   align-content: space-between;
   width: 100%;
-  height: 353px;
+  height: 35em;
   position: relative;
   overflow: hidden;
   transition: 1000ms ease-in-out;
@@ -32,4 +32,17 @@
   align-items: center;
   align-content: center;
   width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .section-description.-disabled {
+    width: calc(100% - 10vw);
+  }
+  .section-description.-active {
+    width: calc(100% - 25vw);
+    padding: 6rem 5rem;
+  }
+  .project-description {
+    justify-content: space-around;
+  }
 }

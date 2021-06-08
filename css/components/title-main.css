@@ -28,15 +28,19 @@
 }
 
 .title-main.-project {
-  font-size: 33px;
+  font-size: 3.2em;
   color: var(--color-third);
   text-shadow: none;
-  margin-bottom: 40px;
-  text-shadow: 0px 1px 4px #000;
+  margin-bottom: 1.25em;
+  text-shadow: 0 0.1rem 0.4rem #000;
 }
+
 @media screen and (max-width: 1200px) {
   .title-main.-introduction {
     font-size: 3.25rem;
+  }
+  .title-main.-project {
+    font-size: 3rem;
   }
 }
 

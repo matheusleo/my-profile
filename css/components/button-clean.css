@@ -1,9 +1,9 @@
 #button-clean {
   color: var(--color-fourth);
-  font-size: 25px;
+  font-size: 2.5rem;
   font-family: inherit;
   position: absolute;
-  right: 75px;
+  right: 3em;
   top: 10%;
 }
 
