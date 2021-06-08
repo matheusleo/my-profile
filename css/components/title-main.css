@@ -58,6 +58,10 @@
   .title-main.-section {
     font-size: 3.5rem;
   }
+  .title-main.-project {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 475px) {

@@ -85,3 +85,9 @@
     transform: scale(0.8);
   }
 }
+
+@media screen and (max-width: 560px) {
+  .project-card.-description {
+    transform: scale(0.8);
+  }
+}
