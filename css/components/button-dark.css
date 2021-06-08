@@ -1,9 +1,9 @@
 .button-dark {
   background-color: var(--color-second);
-  height: 50px;
-  width: 50px;
+  height: 5rem;
+  width: 5rem;
   border: 0px;
-  box-shadow: 4px 4px 0px var(--color-black-first);
+  box-shadow: 0.4rem 0.4rem 0px var(--color-black-first);
   transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
   cursor: pointer;
 }
