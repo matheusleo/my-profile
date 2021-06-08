@@ -75,6 +75,10 @@
     letter-spacing: 0.09em;
   }
 
+  .title-main.-project {
+    font-size: 2.5rem;
+  }
+
   .title-main.-skill {
     font-size: 1.9rem;
   }
