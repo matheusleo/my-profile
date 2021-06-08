@@ -7,6 +7,10 @@
   margin-bottom: 0.75em;
 }
 
+#title-main-phone-screens {
+  display: none;
+}
+
 .title-main.-section {
   display: inline;
   color: var(--color-third);
@@ -46,7 +50,17 @@
 }
 
 @media screen and (max-width: 475px) {
+  #title-main-large-screens {
+    display: none;
+  }
+
+  #title-main-phone-screens {
+    display: inline-block;
+    line-height: 1.2;
+    letter-spacing: 0.09em;
+  }
+
   .title-main.-skill {
-    font-size: min(2rem, 5vw);
+    font-size: 1.9rem;
   }
 }
