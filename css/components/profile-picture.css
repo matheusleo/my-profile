@@ -5,6 +5,12 @@
 
 @media screen and (max-width: 1200px) {
   .profile-picture {
-    transform: scale(0.9);
+    transform: scale(0.92);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .profile-picture {
+    width: calc(100vw - 5em);
   }
 }
