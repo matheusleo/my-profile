@@ -55,3 +55,10 @@
     flex-flow: column wrap;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .section-description.-active {
+    height: 64em;
+    padding: 4rem 3rem 2em;
+  }
+}

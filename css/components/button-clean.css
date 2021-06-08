@@ -10,3 +10,10 @@
 #button-clean:active {
   color: var(--color-fifth);
 }
+
+@media screen and (max-width: 768px) {
+  #button-clean {
+    right: 1em;
+    top: 5%;
+  }
+}

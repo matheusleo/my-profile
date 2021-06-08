@@ -14,3 +14,9 @@
 .project-card:hover .project-overlay {
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .project-overlay {
+    display: none;
+  }
+}
