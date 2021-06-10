@@ -2,57 +2,11 @@
   display: flex;
   background-color: var(--color-second);
   font-family: "Fira Code", monospace;
-  font-size: 20px;
+  font-size: 2rem;
   color: var(--color-third);
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  border-bottom: 8px solid var(--color-black-second);
-}
-
-.header-menu {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.header-menu .options {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-  align-content: center;
-}
-
-.header-menu .options .option {
-  display: inline-flex;
-  margin-right: 30px;
-  color: var(--color-third);
-  text-decoration: none;
-  transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
-}
-
-.header-menu .options .option::before {
-  content: " ";
-  display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: var(--color-first);
-  margin-right: 10px;
-  align-self: center;
-}
-
-.header-menu .options .option:hover,
-.header-menu .options .option:focus {
-  transform: scale(1.05);
-}
-
-.header-menu .options .option:focus::before,
-.header-menu .options .option:hover::before {
-  background-color: var(--color-fifth);
-}
-
-.header-menu .options .option:active {
-  transform: scale(0.95);
+  padding: 0.5em 1em;
+  border-bottom: 0.4em solid var(--color-black-second);
 }
