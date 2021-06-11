@@ -5,6 +5,11 @@
 @media screen and (max-width: 980px) {
   .menu-control {
     display: block;
+    z-index: 2;
+  }
+
+  .menu-control.-active {
+    position: fixed;  
   }
 
   .menu-icon {
