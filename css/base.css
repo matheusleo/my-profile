@@ -26,4 +26,5 @@
 
 body {
   font-family: "Press Start 2P", cursive;
+  background-color: var(--color-second);
 }
