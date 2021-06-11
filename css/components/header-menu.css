@@ -57,7 +57,7 @@
     background-color: var(--color-second);
     position: fixed;
     right: 0;
-    top: max(2.5em, 8vh);
+    top: 4.2em;
     overflow: hidden;
     transition: width 500ms ease-in-out;
     border-top: 1px solid var(--color-first);
