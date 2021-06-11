@@ -18,6 +18,7 @@
   color: var(--color-third);
   text-decoration: none;
   transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
+  width: 100%;
 }
 
 .menu-nav .options .option::before {
@@ -50,18 +51,22 @@
 
 @media screen and (max-width: 980px) {
   .menu-nav {
-    display: none;
-  }
-
-  .menu-nav.-active {
     display: block;
+    width: 0;
+    height: 100vh;
+    background-color: var(--color-second);
     position: fixed;
     right: 0;
     top: max(2.5em, 8vh);
-    flex-flow: column wrap;
-    height: 100vh;
-    background-color: var(--color-second);
+    overflow: hidden;
+    transition: width 500ms ease-in-out;
     border-top: 1px solid var(--color-first);
+  }
+
+  .menu-nav.-active {
+    flex-flow: column wrap;
+    width: max(25vw, 12em);
+    transition: width 500ms ease-in-out;
   }
 
   .menu-nav .options {
