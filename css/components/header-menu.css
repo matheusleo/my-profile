@@ -72,21 +72,29 @@
 
   .menu-nav .options {
     flex-flow: column wrap;
-  }
-
-  .options:first-child {
-    border-top: 1px solid var(--color-first);
+    border-top: 0.05em solid var(--color-first);
+    border-bottom: 0.05em solid var(--color-first);
   }
 
   .menu-nav .list-item {
-    border-bottom: 1px solid var(--color-first);
+    border-bottom: 0.05em solid var(--color-first);
+    width: calc(100% - 0.75em);
+  }
+  .menu-nav .list-item:last-child {
+    border-bottom: 0;
   }
 
   .menu-nav .options .option {
-    padding: 2em;
+    padding: 1.75em;
     margin: 0;
   }
   .options #option-cv {
     display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .menu-nav .options .option {
+    font-size: 1.75rem;
   }
 }
