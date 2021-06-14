@@ -17,6 +17,8 @@ function changeMenu() {
 menuControl.addEventListener("click", changeMenu);
 
 optionsMenu.addEventListener("click", () => {
-  setTimeout(changeMenu, 150);
+  if (innerWidth <= 980) {
+    setTimeout(changeMenu, 600);
+  }
   //modificar o tempo quando descobrir como funciona a transição entre sections
 });
