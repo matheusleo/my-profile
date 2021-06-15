@@ -1,0 +1,47 @@
+.menu-control {
+  display: none;
+}
+
+@media screen and (max-width: 980px) {
+  .menu-control {
+    display: block;
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .menu-control:focus .menu-icon {
+    transform: scale(1.075);
+  }
+
+  .menu-control.-active {
+    position: fixed;
+  }
+
+  .menu-icon {
+    content: "";
+    display: block;
+    height: 0.5rem;
+    width: 3rem;
+    background-color: var(--color-third);
+    margin-bottom: 0.25em;
+    box-shadow: 0.15em 0.15em 0 var(--color-first);
+    transition: 500ms ease-in-out;
+  }
+
+  .menu-control.-active .menu-icon {
+    margin-bottom: 0;
+    box-shadow: 0 0 0 var(--color-first);
+  }
+
+  .menu-control.-active .menu-icon.-one {
+    transform: rotate(45deg) translateY(141%);
+  }
+
+  .menu-control.-active .menu-icon.-two {
+    opacity: 0;
+  }
+
+  .menu-control.-active .menu-icon.-three {
+    transform: rotate(-45deg) translateY(-141%);
+  }
+}

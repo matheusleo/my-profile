@@ -1,32 +1,85 @@
 .title-main {
   display: inline-block;
   font-family: inherit;
-  font-size: 40px;
+  font-size: 4rem;
   color: var(--color-first);
-  text-shadow: 4px 4px 0px var(--color-black-first);
-  margin-bottom: 30px;
+  text-shadow: 0.1em 0.1em 0px var(--color-black-first);
+  margin-bottom: 0.75em;
+}
+
+#title-main-phone-screens {
+  display: none;
 }
 
 .title-main.-section {
   display: inline;
   color: var(--color-third);
-  text-shadow: 0px 1px 4px #000;
-  margin-bottom: 60px;
+  text-shadow: 0 0.025em 0.1em #000;
+  margin-bottom: 1.5em;
   margin-left: auto;
   margin-right: auto;
 }
 
 .title-main.-skill {
-  font-size: 25px;
+  font-size: 2.5rem;
   color: var(--color-third);
-  text-shadow: 0px 1px 4px #000;
+  text-shadow: 0px 0.04em 0.16em #000;
   margin-bottom: 0px;
 }
 
 .title-main.-project {
-  font-size: 33px;
+  font-size: 3.2rem;
   color: var(--color-third);
-  text-shadow: none;
-  margin-bottom: 40px;
-  text-shadow: 0px 1px 4px #000;
+  margin-bottom: 1.25em;
+  text-shadow: 0 0.1rem 0.4rem #000;
+}
+
+@media screen and (max-width: 1200px) {
+  .title-main.-introduction {
+    font-size: 3.25rem;
+  }
+  .title-main.-project {
+    font-size: 3.125rem;
+    margin-bottom: 0.8em;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .title-main.-project {
+    font-size: 3rem;
+    margin: 0 calc(50% - (4 * 1em)) 0.5em;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .title-main.-introduction {
+    font-size: 3rem;
+  }
+  .title-main.-section {
+    font-size: 3.5rem;
+  }
+  .title-main.-project {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  #title-main-large-screens {
+    display: none;
+  }
+
+  #title-main-phone-screens {
+    display: inline-block;
+    line-height: 1.2;
+    letter-spacing: 0.09em;
+  }
+
+  .title-main.-project {
+    font-size: 2.5rem;
+  }
+
+  .title-main.-skill {
+    font-size: 1.9rem;
+  }
 }

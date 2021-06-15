@@ -2,33 +2,38 @@
 
 <html lang="pt-BR">
     <head>
-         <meta charset="utf-8">
-         <title>Matheus Leo.</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Matheus Leo.</title>
 
-         <link rel="preconnect" href="https://fonts.gstatic.com">
-         <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-         <link rel="stylesheet" href="css/reset.css">
-         <link rel="stylesheet" href="css/base.css">
-         <link rel="stylesheet" href="css/components/button-clean.css">
-         <link rel="stylesheet" href="css/components/button-dark.css">
-         <link rel="stylesheet" href="css/components/button-main.css">
-         <link rel="stylesheet" href="css/components/button-measure.css">
-         <link rel="stylesheet" href="css/components/description-wrapper.css">
-         <link rel="stylesheet" href="css/components/header-page.css">
-         <link rel="stylesheet" href="css/components/presentation.css">
-         <link rel="stylesheet" href="css/components/profile-picture.css">
-         <link rel="stylesheet" href="css/components/project-card.css">
-         <link rel="stylesheet" href="css/components/project-overlay.css">
-         <link rel="stylesheet" href="css/components/project-wrapper.css">
-         <link rel="stylesheet" href="css/components/section-description.css">
-         <link rel="stylesheet" href="css/components/section-introduction.css">
-         <link rel="stylesheet" href="css/components/section-main.css">
-         <link rel="stylesheet" href="css/components/skill-list.css">
-         <link rel="stylesheet" href="css/components/skill-measure.css">
-         <link rel="stylesheet" href="css/components/skill-wrappers.css">
-         <link rel="stylesheet" href="css/components/subtitle-main.css">
-         <link rel="stylesheet" href="css/components/title-main.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/components/button-clean.css">
+        <link rel="stylesheet" href="css/components/button-dark.css">
+        <link rel="stylesheet" href="css/components/button-main.css">
+        <link rel="stylesheet" href="css/components/button-measure.css">
+        <link rel="stylesheet" href="css/components/description-wrapper.css">
+        <link rel="stylesheet" href="css/components/header-menu.css">
+        <link rel="stylesheet" href="css/components/header-page.css">
+        <link rel="stylesheet" href="css/components/menu-control.css">
+        <link rel="stylesheet" href="css/components/presentation.css">
+        <link rel="stylesheet" href="css/components/profile-picture.css">
+        <link rel="stylesheet" href="css/components/project-card.css">
+        <link rel="stylesheet" href="css/components/project-overlay.css">
+        <link rel="stylesheet" href="css/components/project-wrapper.css">
+        <link rel="stylesheet" href="css/components/section-description.css">
+        <link rel="stylesheet" href="css/components/section-introduction.css">
+        <link rel="stylesheet" href="css/components/section-main.css">
+        <link rel="stylesheet" href="css/components/skill-icon.css">
+        <link rel="stylesheet" href="css/components/skill-list.css">
+        <link rel="stylesheet" href="css/components/skill-measure.css">
+        <link rel="stylesheet" href="css/components/skill-wrappers.css">
+        <link rel="stylesheet" href="css/components/subtitle-main.css">
+        <link rel="stylesheet" href="css/components/title-main.css">
     </head>
 
     <body>
@@ -38,12 +43,18 @@
             </a>
 
             <div class="header-menu">
-                <nav class="menu">
-                    <ul class="options">
+                <div id="menu-control" class="menu-control" tabindex="0">
+                    <div class="menu-icon -one"></div>
+                    <div class="menu-icon -two"></div>
+                    <div class="menu-icon -three"></div>
+                </div>
+                <nav id="menu-nav" class="menu-nav">
+                    <ul id="menu-options" class="options">
                         <li class="list-item"><a class="option" href="#section-skills" lang="en">Skills</a></li>
                         <li class="list-item"><a class="option" href="#section-projects">Projetos</a></li>
                         <li class="list-item"><a class="option" href="">Sobre</a></li>
                         <li class="list-item"><a class="option" href="">Contatos</a></li>
+                        <li id="option-cv" class="list-item"><a class="option" href="">Download CV</a></li>
                     </ul>
                 </nav>
                 <button class="button-main -cv" lang="en">Download CV</button> 
@@ -51,12 +62,13 @@
                     utilizar o botão para baixar CV-->
             </div>
         </header>
-
+    <main id="main-content" style="transition: 500ms ease-in-out;">
         <section class="section-introduction" id="section-introduction">
             <div class="introduction-wrapper">
                 <div class="introduction-banner">
-                    <h1 class="title-main">Matheus Leo.</h1>
-                    <h2 class="subtitle-main" lang="en">FrontEnd Developer</h2>
+                    <h1 id="title-main-large-screens" class="title-main -introduction">Matheus Leo.</h1>
+                    <h1 id="title-main-phone-screens" class="title-main -introduction">Matheus Leonardo</h1>
+                    <h2 class="subtitle-main -introduction" lang="en">FrontEnd Developer</h2>
                 </div>
                 <div class="wrapper-actions">
                     <button class="button-main -cv" lang="en">Download CV</button>
@@ -82,11 +94,13 @@
                 <section class="section-description -disabled" id="section-description"></section>
             </div>
         </section>
+    </main>
 
         <script src="js/skill-itens.js"></script>
         <script src="js/skill-measure.js"></script>
         <script src="js/project-cards.js"></script>
         <script src="js/project-description.js"></script>
+        <script src="js/menu-control.js"></script>
     </body>
 </html>
 <!--Soli Deo Gloria-->
