@@ -22,8 +22,10 @@
   --phone-size: 475px;
 
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Press Start 2P", cursive;
+  background-color: var(--color-second);
 }

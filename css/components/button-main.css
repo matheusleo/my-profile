@@ -24,3 +24,9 @@
 .button-main:active {
   transform: scale(0.95);
 }
+
+@media screen and (max-width: 980px) {
+  .header-menu .button-main.-cv {
+    display: none;
+  }
+}

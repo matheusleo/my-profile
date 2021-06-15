@@ -17,7 +17,9 @@
         <link rel="stylesheet" href="css/components/button-main.css">
         <link rel="stylesheet" href="css/components/button-measure.css">
         <link rel="stylesheet" href="css/components/description-wrapper.css">
+        <link rel="stylesheet" href="css/components/header-menu.css">
         <link rel="stylesheet" href="css/components/header-page.css">
+        <link rel="stylesheet" href="css/components/menu-control.css">
         <link rel="stylesheet" href="css/components/presentation.css">
         <link rel="stylesheet" href="css/components/profile-picture.css">
         <link rel="stylesheet" href="css/components/project-card.css">
@@ -41,12 +43,18 @@
             </a>
 
             <div class="header-menu">
-                <nav class="menu">
-                    <ul class="options">
+                <div id="menu-control" class="menu-control" tabindex="0">
+                    <div class="menu-icon -one"></div>
+                    <div class="menu-icon -two"></div>
+                    <div class="menu-icon -three"></div>
+                </div>
+                <nav id="menu-nav" class="menu-nav">
+                    <ul id="menu-options" class="options">
                         <li class="list-item"><a class="option" href="#section-skills" lang="en">Skills</a></li>
                         <li class="list-item"><a class="option" href="#section-projects">Projetos</a></li>
                         <li class="list-item"><a class="option" href="">Sobre</a></li>
                         <li class="list-item"><a class="option" href="">Contatos</a></li>
+                        <li id="option-cv" class="list-item"><a class="option" href="">Download CV</a></li>
                     </ul>
                 </nav>
                 <button class="button-main -cv" lang="en">Download CV</button> 
@@ -54,7 +62,7 @@
                     utilizar o botão para baixar CV-->
             </div>
         </header>
-
+    <main id="main-content" style="transition: 500ms ease-in-out;">
         <section class="section-introduction" id="section-introduction">
             <div class="introduction-wrapper">
                 <div class="introduction-banner">
@@ -86,11 +94,13 @@
                 <section class="section-description -disabled" id="section-description"></section>
             </div>
         </section>
+    </main>
 
         <script src="js/skill-itens.js"></script>
         <script src="js/skill-measure.js"></script>
         <script src="js/project-cards.js"></script>
         <script src="js/project-description.js"></script>
+        <script src="js/menu-control.js"></script>
     </body>
 </html>
 <!--Soli Deo Gloria-->
