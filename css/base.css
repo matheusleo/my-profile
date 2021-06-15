@@ -23,6 +23,7 @@
 
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scrollbar-color: var(--color-fourth) var(--color-second);
 }
 
 body {
