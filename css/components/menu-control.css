@@ -9,6 +9,10 @@
     cursor: pointer;
   }
 
+  .menu-control:focus .menu-icon {
+    transform: scale(1.075);
+  }
+
   .menu-control.-active {
     position: fixed;
   }

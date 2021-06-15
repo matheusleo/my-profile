@@ -15,6 +15,11 @@ function changeMenu() {
 }
 
 menuControl.addEventListener("click", changeMenu);
+menuControl.addEventListener("keydown", (keyPressed) => {
+  if (keyPressed.key === "Enter") {
+    changeMenu();
+  }
+});
 
 optionsMenu.addEventListener("click", () => {
   if (innerWidth <= 980) {
