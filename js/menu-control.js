@@ -27,3 +27,11 @@ optionsMenu.addEventListener("click", () => {
   }
   //modificar o tempo quando descobrir como funciona a transição entre sections
 });
+
+// O que eu quero?
+//  Eu quero que, toda vez que o menu estiver fechado, as opções dentro do menu sejam
+//  inselecionáveis
+//  Ao mesmo tempo que, quando a tela for maior que 980px, essa opções sejam selecionáveis
+// 
+// Passo A Passo
+//  
