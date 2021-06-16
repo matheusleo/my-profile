@@ -15,9 +15,7 @@
   display: inline;
   color: var(--color-third);
   text-shadow: 0 0.025em 0.1em #000;
-  margin-bottom: 1.5em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 1.5em;
 }
 
 .title-main.-skill {

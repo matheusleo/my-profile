@@ -13,5 +13,11 @@
 
 .section-main.-projects {
   background-color: var(--color-black-first);
-  padding: 5em 0px 0px;
+  padding: 5em 0 0;
+  border-bottom: 0.8em solid var(--color-fifth);
+}
+
+.section-main.-about-me {
+  background-color: var(--color-second);
+  border-bottom: 0.8em solid var(--color-fifth);
 }
