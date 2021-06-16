@@ -1,0 +1,31 @@
+.description-paragraph {
+  display: inline-block;
+  font-family: "Fira Code", monospace;
+  font-size: 2.5rem;
+  max-width: 24em;
+  line-height: 1.312em;
+}
+
+@media screen and (max-width: 1200px) {
+  .description-paragraph {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .description-paragraph {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .description-paragraph {
+    margin-bottom: 0.75em;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .description-paragraph {
+    font-size: 2.5vh;
+  }
+}
