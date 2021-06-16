@@ -13,6 +13,7 @@
   color: var(--color-third);
   text-align: justify;
   margin-bottom: 0;
+  width: min(92.5%, calc(100% - 3.5em));
 }
 
 @media screen and (max-width: 1200px) {
