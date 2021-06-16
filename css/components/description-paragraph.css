@@ -2,8 +2,17 @@
   display: inline-block;
   font-family: "Fira Code", monospace;
   font-size: 2.5rem;
-  max-width: 24em;
   line-height: 1.312em;
+}
+
+.description-paragraph.-project {
+  max-width: 24em;
+}
+
+.description-paragraph.-about-me {
+  color: var(--color-third);
+  text-align: justify;
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 1200px) {
