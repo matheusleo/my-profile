@@ -6,6 +6,12 @@
   text-shadow: 0.2em 0.2em 0px var(--color-black-first);
 }
 
+.subtitle-main.-year {
+  color: var(--color-second);
+  text-shadow: 0 0 0.1em #000;
+  font-size: 2.5rem;
+}
+
 @media screen and (max-width: 1200px) {
   .subtitle-main.-introduction {
     font-size: 2.25rem;
