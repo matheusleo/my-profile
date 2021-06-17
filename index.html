@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/components/about-card.css">
         <link rel="stylesheet" href="css/components/about-image.css">
         <link rel="stylesheet" href="css/components/about-timeline.css">
+        <link rel="stylesheet" href="css/components/about-wrappers.css">
         <link rel="stylesheet" href="css/components/button-clean.css">
         <link rel="stylesheet" href="css/components/button-dark.css">
         <link rel="stylesheet" href="css/components/button-main.css">
@@ -106,15 +107,43 @@
 
             <h3 class="title-main -section">Sobre Mim</h3>
             <span class="about-timeline"></span>
-
-            <button class="button-main -arrow">
-                <img src="/assets/arrow/arrow-pixel-art.svg" alt="Seta para Esquerda, em Pixel Art">
-            </button>
-            <button class="button-main -arrow">
-                <img style="transform: rotate(180deg);" src="/assets/arrow/arrow-pixel-art.svg" alt="Seta para Direita, em Pixel Art">
-            </button>
-
             
+            <div class="wrapper-timeline">
+                <button class="button-main -arrow">
+                    <img src="/assets/arrow/arrow-pixel-art.svg" alt="Seta para Esquerda, em Pixel Art">
+                </button>
+
+                <div class="wrapper-cards">
+                    <article class="about-card">
+                        <time class="subtitle-main -year" datetime="2006">2006</time>
+                        <div class="about-wrapper">
+                            <img src="assets/img/logo-pitagoras-colored.svg" 
+                                alt="Logo do Colégio Pitágoras Cidade Jardim" 
+                                class="about-image">
+                        </div>
+                        <h3 class="title-main -about -long-name">Colégio Pitágoras</h3>
+                        <p class="description-paragraph -about">Lorem ipsum dolor, sit amet 
+                            consectetur adipisicing elit. Corrupti quasi dolorem totam 
+                            odit ipsum laboriosam.</p>
+                    </article>
+                    <article class="about-card">
+                        <time class="subtitle-main -year" datetime="2006">2006</time>
+                        <div class="about-wrapper">
+                            <img src="assets/img/logo-pitagoras-colored.svg" 
+                                alt="Logo do Colégio Pitágoras Cidade Jardim" 
+                                class="about-image">
+                        </div>
+                        <h3 class="title-main -about -long-name">Colégio Pitágoras</h3>
+                        <p class="description-paragraph -about">Lorem ipsum dolor, sit amet 
+                            consectetur adipisicing elit. Corrupti quasi dolorem totam 
+                            odit ipsum laboriosam.</p>
+                    </article>
+                </div>
+
+                <button class="button-main -arrow">
+                    <img style="transform: rotate(180deg);" src="/assets/arrow/arrow-pixel-art.svg" alt="Seta para Direita, em Pixel Art">
+                </button>
+            </div>
 
             <p class="description-paragraph -about-me">Lorem ipsum, dolor sit amet consectetur 
                 adipisicing elit. Nihil adipisci placeat distinctio non necessitatibus eveniet 
