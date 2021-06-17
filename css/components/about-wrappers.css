@@ -1,0 +1,20 @@
+.wrapper-timeline {
+  display: flex;
+  flex-flow: row nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.wrapper-cards {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 75%;
+  overflow-x: scroll;
+  margin: 0 1.25em;
+}
+
+.wrapper-cards .about-card {
+  margin: 0 2.5em;
+}
