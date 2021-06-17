@@ -1,0 +1,23 @@
+.about-timeline {
+  width: 86%;
+  height: 0.5rem;
+  background-color: var(--color-black-second);
+  align-self: center;
+}
+
+.about-timeline::before,
+.about-timeline::after {
+  display: inline-block;
+  content: "";
+  width: 7.5%;
+  position: absolute;
+  border-top: 0.5rem dashed var(--color-black-second);
+}
+
+.about-timeline::before {
+  left: 0;
+}
+
+.about-timeline::after {
+  right: 0;
+}
