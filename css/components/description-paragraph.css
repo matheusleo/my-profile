@@ -9,6 +9,14 @@
   max-width: 24em;
 }
 
+.description-paragraph.-about {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  text-align: justify;
+  max-width: calc(100% - 2em);
+  color: var(--color-third);
+}
+
 .description-paragraph.-about-me {
   color: var(--color-third);
   text-align: justify;
