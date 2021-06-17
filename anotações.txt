@@ -1,15 +1,30 @@
 A próxima aula à ser assistida é a do [Módulo 6.01]
 
-Plano ** - correções
-    d) Criar o código responsável pela edição no Firefox do <meter>
-    f) Como melhorar a qualidade do código dentro do "button-dark.css"
-    g) Adicionar um fallback para não haver duplicação da descrição com double-click
-    h) Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
-
-Plano A - Corrigir responsividade
+Plano ** - Bug Fixes
     I - Corrigir section Introdution - 768px < tela < 980px
     II - Corrigir section Introdution - tela < 768px
     III - Corrigir section Description - telas < 560px
     IV - Corrigir section Description - 768px < tela < 980px
     V - Modificar height das sections (?)
     IV - Como fazer as opções dele inselecionáveis a partir do fechamento? - tela < 980px
+    VII - Adicionar text-align: justify/estudar text-align
+    VIII - Criar o código responsável pela edição no Firefox do <meter>
+    IX - Como melhorar a qualidade do código dentro do "button-dark.css"
+    X - Adicionar um fallback para não haver duplicação da descrição com double-click
+    XI - Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
+    XII - Verificartext-shadow dos títulos de seção
+
+Plano A - Section About Me
+    Trabalho de Ontem: criar o card que será utilizado para descrever um pouco sobre onde eu já
+    estudei/trabalhei e estará na timeline
+
+    Falta:
+        [] Testar o card com outras imagens - possivelmente depois de testar irá ser preciso
+        modificar o tamanho do card para telas menores que 475 (ou talvez criar um breakpoint
+        próximo a 375/360px)
+        [] Criar a timeline - a própria linha que estará de fundo
+        [] Criar os buttons da timeline - que serão utilizados em large screens
+        [] Habilitar o scroll - que será utilizada apenas em small screens
+
+    Ideias:
+        [] Hover state para large screens/grayscale
