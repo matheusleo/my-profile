@@ -27,7 +27,7 @@
   margin: 0 2.5em;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 930px) {
   .wrapper-cards {
     justify-content: start;
   }
