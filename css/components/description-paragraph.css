@@ -22,6 +22,7 @@
   text-align: justify;
   margin-bottom: 0;
   width: min(92.5%, calc(100% - 3.5em));
+  margin-top: min(5rem, 5vmax);
 }
 
 @media screen and (max-width: 1200px) {
@@ -45,5 +46,9 @@
 @media screen and (max-width: 475px) {
   .description-paragraph {
     font-size: 2.5vh;
+  }
+
+  .description-paragraph.-about-me {
+    margin-top: 2.5vmax;
   }
 }

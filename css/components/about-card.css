@@ -23,3 +23,10 @@
     transform: scale(0.8);
   }
 }
+
+@media screen and (max-height: 360px) {
+  .about-card {
+    height: 97.5vh;
+    border: 0.5em solid var(--color-black-first);
+  }
+}
