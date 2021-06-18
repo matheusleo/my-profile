@@ -23,3 +23,15 @@
 .about-timeline::after {
   right: -7.5%;
 }
+
+@media screen and (max-width: 475px) {
+  .about-timeline {
+    top: 15%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about-timeline {
+    top: 19%;
+  }
+}
