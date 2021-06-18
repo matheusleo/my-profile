@@ -20,3 +20,9 @@
 .wrapper-cards .about-card {
   margin: 0 2.5em;
 }
+
+@media screen and (max-width: 475px) {
+  .wrapper-cards {
+    margin: 0;
+  }
+}

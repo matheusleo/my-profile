@@ -36,3 +36,10 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 475px) {
+  .button-main.-arrow {
+    width: 1.5em;
+    height: 1.5em;
+  }
+}
