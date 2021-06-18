@@ -15,16 +15,16 @@ Plano ** - Bug Fixes
     XII - Verificartext-shadow dos títulos de seção
 
 Plano A - Section About Me
-    Trabalho de Ontem: criar o card que será utilizado para descrever um pouco sobre onde eu já
-    estudei/trabalhei e estará na timeline
+    Trabalho de Ontem: terminar estilização do about card & criar, estilizar e posicionar
+    a line da timeline
 
     Falta:
-        [] Testar o card com outras imagens - possivelmente depois de testar irá ser preciso
-        modificar o tamanho do card para telas menores que 475 (ou talvez criar um breakpoint
+        [] Modificar o align-items da section About para centralizar elementos - isso irá 
+        corrigir o posicionamento do parágrafo (e de todo o resto)
+        [] Refinar timeline completa
+        [] Modificar o tamanho do card para telas menores que 475 (ou talvez criar um breakpoint
         próximo a 375/360px)
-        [] Criar a timeline - a própria linha que estará de fundo
-        [] Criar os buttons da timeline - que serão utilizados em large screens
-        [] Habilitar o scroll - que será utilizada apenas em small screens
 
     Ideias:
         [] Hover state para large screens/grayscale
+        [] Utilizar max/min width para melhorar a responsividade do about card
