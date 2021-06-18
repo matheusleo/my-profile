@@ -3,6 +3,8 @@
   height: 0.5rem;
   background-color: var(--color-black-second);
   align-self: center;
+  position: absolute;
+  top: 12%;
 }
 
 .about-timeline::before,
@@ -15,9 +17,9 @@
 }
 
 .about-timeline::before {
-  left: 0;
+  left: -7.5%;
 }
 
 .about-timeline::after {
-  right: 0;
+  right: -7.5%;
 }
