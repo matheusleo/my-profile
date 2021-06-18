@@ -18,9 +18,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
   .about-card {
-    transform: scale(0.8);
+    transform: scale(0.9) translateX(-4.75%);
   }
 }
 
@@ -28,5 +28,11 @@
   .about-card {
     height: 97.5vh;
     border: 0.5em solid var(--color-black-first);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .about-card {
+    transform: scale(0.8) translateX(-12.5%);
   }
 }
