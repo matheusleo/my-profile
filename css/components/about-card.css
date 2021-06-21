@@ -10,6 +10,7 @@
   align-items: center;
   justify-content: space-evenly;
   align-content: space-around;
+  scroll-snap-align: center;
 }
 
 @media screen and (min-width: 980px) {

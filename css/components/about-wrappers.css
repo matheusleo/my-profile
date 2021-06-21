@@ -20,6 +20,7 @@
   justify-content: space-around;
   align-items: center;
   scrollbar-width: none;
+  scroll-snap-type: x mandatory;
 }
 
 .wrapper-cards::-webkit-scrollbar {
@@ -47,10 +48,10 @@
   }
 
   .wrapper-cards .about-card {
-    margin: 0 5em 0 0;
+    margin: 0 0 0 5em;
   }
 
-  .wrapper-cards .about-card:last-child {
+  .wrapper-cards .about-card:first-child {
     margin: 0;
   }
 }
