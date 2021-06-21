@@ -22,7 +22,7 @@
   text-align: justify;
   margin-bottom: 0;
   width: min(92.5%, calc(100% - 3.5em));
-  margin-top: min(5rem, 5vmax);
+  margin-top: min(2.5rem, 2.5vmax);
 }
 
 @media screen and (max-width: 1200px) {

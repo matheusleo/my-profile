@@ -32,6 +32,10 @@
   text-shadow: 0 0.1rem 0.4rem var(--color-black-first);
 }
 
+#section-about .title-main.-section {
+  margin-bottom: 0.625em;
+}
+
 .title-main.-about {
   font-size: 2.5rem;
   color: var(--color-third);
