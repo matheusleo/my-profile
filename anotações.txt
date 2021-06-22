@@ -12,19 +12,21 @@ Plano ** - Bug Fixes
     IX - Como melhorar a qualidade do código dentro do "button-dark.css"
     X - Adicionar um fallback para não haver duplicação da descrição com double-click
     XI - Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
-    XII - Verificartext-shadow dos títulos de seção
+    XII - Verificar text-shadow dos títulos de seção
+
+    Ideias de Correção:
+        - Tornar o invader responsivo
+        - Modificar os títulos das sections para telas até 320px
+
 
 Plano A - Section About Me
-    Trabalho de Ontem: terminar estilização do about card & criar, estilizar e posicionar
-    a line da timeline
+    Trabalho de Ontem: Criar JS que será responsável pela movimentação na Section About e estudar
+    como funciona o scroll-snap-type e scroll-snap-align. Além de aprender sobre a scrollBy,
+    scrollTo e scroll (metódos dos elementos utilizados em JS)
+                        Criar JS responsável pela geração dinâmica dos about-cards na página
 
     Falta:
-        [] Modificar o align-items da section About para centralizar elementos - isso irá 
-        corrigir o posicionamento do parágrafo (e de todo o resto)
-        [] Refinar timeline completa
-        [] Modificar o tamanho do card para telas menores que 475 (ou talvez criar um breakpoint
-        próximo a 375/360px)
+        - Criar a Section Contact
 
     Ideias:
-        [] Hover state para large screens/grayscale
-        [] Utilizar max/min width para melhorar a responsividade do about card
+        - Melhorar responsividade para telas de celulares horizontais - BAIXA PRIORIDADE
