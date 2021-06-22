@@ -1,4 +1,4 @@
-A próxima aula à ser assistida é a do [Módulo 6.01]
+A próxima aula à ser assistida é a do [Módulo 7.01]
 
 Plano ** - Bug Fixes
     I - Corrigir section Introdution - 768px < tela < 980px
@@ -17,16 +17,11 @@ Plano ** - Bug Fixes
     Ideias de Correção:
         - Tornar o invader responsivo
         - Modificar os títulos das sections para telas até 320px
-
-
-Plano A - Section About Me
-    Trabalho de Ontem: Criar JS que será responsável pela movimentação na Section About e estudar
-    como funciona o scroll-snap-type e scroll-snap-align. Além de aprender sobre a scrollBy,
-    scrollTo e scroll (metódos dos elementos utilizados em JS)
-                        Criar JS responsável pela geração dinâmica dos about-cards na página
-
-    Falta:
-        - Criar a Section Contact
-
-    Ideias:
         - Melhorar responsividade para telas de celulares horizontais - BAIXA PRIORIDADE
+
+
+Plano A - Section Contact
+
+    Trabalho de Ontem: Ver as aulas do MarcoBruno do Módulo 6
+    Falta:
+    Ideias:
