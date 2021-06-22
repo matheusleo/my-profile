@@ -33,7 +33,7 @@ function deployDescription(project) {
             >
           </figure>
           <div class="description-wrapper">
-            <p class= "description-paragraph">${project.projectDescription}</p>
+            <p class= "description-paragraph -project">${project.projectDescription}</p>
             <a class ="link" href="${project.projectLink}" 
             target="_blank" rel="noopener noreferrer">
                 Visitar projeto...</a>

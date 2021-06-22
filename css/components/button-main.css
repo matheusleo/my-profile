@@ -5,7 +5,7 @@
   border: 0px;
   background-color: var(--color-first);
   color: var(--color-third);
-  box-shadow: 0.25em 0.25em 0px var(--color-black-first);
+  box-shadow: 0.25em 0.25em 0 var(--color-black-first);
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
@@ -25,8 +25,21 @@
   transform: scale(0.95);
 }
 
+.button-main.-arrow {
+  width: 2em;
+  height: 2em;
+  padding: 0;
+}
+
 @media screen and (max-width: 980px) {
   .header-menu .button-main.-cv {
     display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .button-main.-arrow {
+    width: 1.5em;
+    height: 1.5em;
   }
 }

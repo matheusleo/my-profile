@@ -12,6 +12,10 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/components/about-card.css">
+        <link rel="stylesheet" href="css/components/about-image.css">
+        <link rel="stylesheet" href="css/components/about-timeline.css">
+        <link rel="stylesheet" href="css/components/about-wrappers.css">
         <link rel="stylesheet" href="css/components/button-clean.css">
         <link rel="stylesheet" href="css/components/button-dark.css">
         <link rel="stylesheet" href="css/components/button-main.css">
@@ -27,6 +31,7 @@
         <link rel="stylesheet" href="css/components/project-card.css">
         <link rel="stylesheet" href="css/components/project-overlay.css">
         <link rel="stylesheet" href="css/components/project-wrapper.css">
+        <link rel="stylesheet" href="css/components/section-about.css">
         <link rel="stylesheet" href="css/components/section-description.css">
         <link rel="stylesheet" href="css/components/section-introduction.css">
         <link rel="stylesheet" href="css/components/section-main.css">
@@ -54,7 +59,7 @@
                     <ul id="menu-options" class="options">
                         <li class="list-item"><a class="option" href="#section-skills" lang="en">Skills</a></li>
                         <li class="list-item"><a class="option" href="#section-projects">Projetos</a></li>
-                        <li class="list-item"><a class="option" href="">Sobre</a></li>
+                        <li class="list-item"><a class="option" href="#section-about">Sobre</a></li>
                         <li class="list-item"><a class="option" href="">Contatos</a></li>
                         <li id="option-cv" class="list-item"><a class="option" href="">Download CV</a></li>
                     </ul>
@@ -65,6 +70,7 @@
             </div>
         </header>
     <main id="main-content" style="transition: 500ms ease-in-out;">
+
         <section class="section-introduction" id="section-introduction">
             <div class="introduction-wrapper">
                 <div class="introduction-banner">
@@ -96,13 +102,42 @@
                 <section class="section-description -disabled" id="section-description"></section>
             </div>
         </section>
+
+        <section class="section-main -about-me" id="section-about">
+
+            <h3 class="title-main -section">Sobre Mim</h3>
+            
+            <div class="wrapper-timeline">
+                <span class="about-timeline"></span>
+                <button class="button-main -arrow" id="button-arrow-left">
+                    <img src="/assets/arrow/arrow-pixel-art.svg" alt="Seta para Esquerda, em Pixel Art">
+                </button>
+
+                <div class="wrapper-cards" id="wrapper-cards">
+                </div>
+
+                <button class="button-main -arrow" id="button-arrow-right">
+                    <img style="transform: rotate(180deg);" src="/assets/arrow/arrow-pixel-art.svg" alt="Seta para Direita, em Pixel Art">
+                </button>
+            </div>
+
+            <p class="description-paragraph -about-me">Entrei na área de programação desde que 
+                descobri ela com uma matéria dedicada à Python, na UFMG, em 2020, e fiquei 
+                maravilhado. A partir disso, comecei a aprender HTML, CSS e JavaScript com um 
+                desejo crescente e a disposição de sempre aprender mais e me aprofundar na área.
+                Com o meu avanço, descobri novas paixões, como design, e que, com programação, 
+                posso realizar uma das minhas maiores vontades: ajudar meu próximo. E, por isso, 
+                sigo em frente na área, estudando cada vez mais.</p>
+        </section>
     </main>
 
-        <script src="js/skill-itens.js"></script>
-        <script src="js/skill-measure.js"></script>
+        <script src="js/about-cards.js"></script>
+        <script src="js/about-timeline.js"></script>
+        <script src="js/menu-control.js"></script>
         <script src="js/project-cards.js"></script>
         <script src="js/project-description.js"></script>
-        <script src="js/menu-control.js"></script>
+        <script src="js/skill-itens.js"></script>
+        <script src="js/skill-measure.js"></script>
     </body>
 </html>
 <!--Soli Deo Gloria-->

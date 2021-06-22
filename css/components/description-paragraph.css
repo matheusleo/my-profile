@@ -2,8 +2,27 @@
   display: inline-block;
   font-family: "Fira Code", monospace;
   font-size: 2.5rem;
-  max-width: 24em;
   line-height: 1.312em;
+}
+
+.description-paragraph.-project {
+  max-width: 24em;
+}
+
+.description-paragraph.-about {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+  text-align: justify;
+  max-width: calc(100% - 2em);
+  color: var(--color-third);
+}
+
+.description-paragraph.-about-me {
+  color: var(--color-third);
+  text-align: justify;
+  margin-bottom: 0;
+  width: min(92.5%, calc(100% - 3.5em));
+  margin-top: min(2.5rem, 2.5vmax);
 }
 
 @media screen and (max-width: 1200px) {
@@ -27,5 +46,9 @@
 @media screen and (max-width: 475px) {
   .description-paragraph {
     font-size: 2.5vh;
+  }
+
+  .description-paragraph.-about-me {
+    margin-top: 2.5vmax;
   }
 }
