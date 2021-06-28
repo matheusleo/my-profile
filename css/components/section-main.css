@@ -4,7 +4,7 @@
   flex-flow: column wrap;
   align-content: center;
   padding: 5em 0;
-  border-bottom: 0.8em solid var(--color-black-second);
+  border-bottom: 0.8em solid var(--color-second);
 }
 
 .section-main.-skills {
