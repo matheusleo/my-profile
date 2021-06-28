@@ -21,9 +21,11 @@
         <link rel="stylesheet" href="css/components/button-main.css">
         <link rel="stylesheet" href="css/components/button-measure.css">
         <link rel="stylesheet" href="css/components/contact-media.css">
+        <link rel="stylesheet" href="css/components/contact-wrappers.css">
         <link rel="stylesheet" href="css/components/description-paragraph.css">
         <link rel="stylesheet" href="css/components/description-wrapper.css">
         <link rel="stylesheet" href="css/components/footer-main.css">
+        <link rel="stylesheet" href="css/components/form-input.css">
         <link rel="stylesheet" href="css/components/header-menu.css">
         <link rel="stylesheet" href="css/components/header-page.css">
         <link rel="stylesheet" href="css/components/main-scrollbar.css">
@@ -135,20 +137,23 @@
         <section class="section-main -contact" id="section-contact">
             <h3 class="title-main -section">Contatos</h3>
 
-            <div class="wrapper-form">
-                <label for="form-sender">
-                    Nome:
+            <form action="#" class="wrapper-fieldsets">
+                <fieldset class="form-fieldset -short">
+                    <label class="form-label" for="form-sender">Nome:</label><br>
                     <input id="form-sender" name="sender" class="form-input -short" type="text" placeholder="Robin">
-                </label>
-                <label for="form-subject">
-                    Assunto:
+                </fieldset>
+                
+                <fieldset class="form-fieldset -short">
+                    <label class="form-label" for="form-subject">Assunto:</label><br>
                     <input id="form-subject" name="subject"class="form-input -short" type="text" placeholder="Batmóvel">
-                </label>
-                <label for="form-email">
-                    Email:
+                </fieldset>
+
+                <fieldset class="form-fieldset">
+                    <label class="form-label" for="form-email">Email:</label><br>
                     <input id="form-email" name="email" class="form-input" type="email" placeholder="robin@batfamily.bat">
-                </label>
-            </div>
+                </fieldset>
+            </form>
+            
         </section>  
     </main>
 
