@@ -16,6 +16,7 @@
   line-height: 1.6;
   background-color: var(--color-third);
   color: var(--color-black-first);
-  border: 0.5rem solid var(--color-second);
+  border: 0.5rem solid rgba(0, 34, 78, 1);
+  /*Era necessário adicionar um contrates maior entre borda e background*/
   margin: 0.5rem 0 1rem;
 }
