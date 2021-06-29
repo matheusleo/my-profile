@@ -13,6 +13,9 @@ Plano ** - Bug Fixes
     X - Adicionar um fallback para não haver duplicação da descrição com double-click
     XI - Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
     XII - Verificar text-shadow dos títulos de seção
+    XIII - Modificar section-main - detalhes no arquivo section-main.css
+    XIV - Modificar project-wrapper.css - unidade de medida
+    XV - Modificar footer-main.css - unidade de medida
 
     Ideias de Correção:
         - Tornar o invader responsivo
@@ -22,6 +25,6 @@ Plano ** - Bug Fixes
 
 Plano A - Section Contact
 
-    Trabalho de Ontem: Ver as aulas do MarcoBruno do Módulo 6
+    Trabalho de Ontem: Começar a implementar a Section Contact e criar o form de Contato
     Falta:
     Ideias:
