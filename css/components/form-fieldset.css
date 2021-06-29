@@ -13,6 +13,8 @@
   width: 100%;
   font-family: "Fira Code", monospace;
   font-size: 1.6rem;
+  line-height: 1.6;
+  background-color: var(--color-third);
   color: var(--color-black-first);
   border: 0.5rem solid var(--color-second);
   margin: 0.5rem 0 1rem;
