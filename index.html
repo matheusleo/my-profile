@@ -25,7 +25,6 @@
         <link rel="stylesheet" href="css/components/description-paragraph.css">
         <link rel="stylesheet" href="css/components/description-wrapper.css">
         <link rel="stylesheet" href="css/components/footer-main.css">
-        <link rel="stylesheet" href="css/components/form-input.css">
         <link rel="stylesheet" href="css/components/header-menu.css">
         <link rel="stylesheet" href="css/components/header-page.css">
         <link rel="stylesheet" href="css/components/main-scrollbar.css">
@@ -136,24 +135,20 @@
 
         <section class="section-main -contact" id="section-contact">
             <h3 class="title-main -section">Contatos</h3>
-
-            <form action="#" class="wrapper-fieldsets">
-                <fieldset class="form-fieldset -short">
-                    <label class="form-label" for="form-sender">Nome:</label><br>
-                    <input id="form-sender" name="sender" class="form-input -short" type="text" placeholder="Robin">
+            <form action="#" class="form-main">
+                <fieldset class="form-fieldset">
+                    <label for="form-sender" class="form-label">Nome:</label><br>
+                    <input id="form-sender" type="text">
                 </fieldset>
                 
-                <fieldset class="form-fieldset -short">
-                    <label class="form-label" for="form-subject">Assunto:</label><br>
-                    <input id="form-subject" name="subject"class="form-input -short" type="text" placeholder="Batmóvel">
-                </fieldset>
-
                 <fieldset class="form-fieldset">
-                    <label class="form-label" for="form-email">Email:</label><br>
-                    <input id="form-email" name="email" class="form-input" type="email" placeholder="robin@batfamily.bat">
+                    <label for="form-email" class="form-label">Email:</label><br>
+                    <input id="form-email" type="email">
+
+                    <label for="form-subject" class="form-label">Assunto:</label><br>
+                    <input id="form-subject" type="text">
                 </fieldset>
             </form>
-            
         </section>  
     </main>
 
