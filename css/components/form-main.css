@@ -4,4 +4,5 @@
   display: flex;
   flex-flow: column wrap;
   align-content: center;
+  margin-bottom: 5rem; /*Remover margin bottom, quando a tela for maior que 1024px*/
 }
