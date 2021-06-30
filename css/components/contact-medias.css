@@ -1,0 +1,30 @@
+.contact-media {
+  /*Adicionar eles sendo retirados quando a tela estiver menor quue 1024px*/
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: var(--color-third);
+  font-family: "Fira Code", monospace;
+  font-size: 2.25rem;
+}
+
+.contact-column > .contact-media {
+  margin-bottom: 1em;
+}
+.contact-column > .contact-media > * {
+  margin: 0em 1em;
+}
+
+.contact-logo {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+@media screen and (max-width: 475px) {
+  .contact-logo {
+    width: 4rem;
+    height: 4rem;
+  }
+}
