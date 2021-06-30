@@ -21,10 +21,18 @@ Plano ** - Bug Fixes
         - Tornar o invader responsivo
         - Modificar os títulos das sections para telas até 320px
         - Melhorar responsividade para telas de celulares horizontais - BAIXA PRIORIDADE
+        - Mudar a background-color da section Contact (?)
+        - Adicionar tooltip/span interrogação para informar que tipo de dado é esperado
+            > isso exige estudar data-* https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*
+        - 
 
 
 Plano A - Section Contact
+    Trabalho de Ontem: Implementar o form da section Contact e consertar alguns pequenos problemas relacionados ao design
 
-    Trabalho de Ontem: Começar a implementar a Section Contact e criar o form de Contato
-    Falta:
-    Ideias:
+    Falta: 
+        - Implementar a segunda coluna - que envolve as mídias sociais (.social-medias,.contact-media...) e o GIF do Mario no PC
+        - Aprender a utilizar a tooltip
+        - Aprender a fazer o <span> de dúvida que explica como o input deve ser preenchido
+
+    Ideias: Como consertar o problema de acertar a width do GIF?
