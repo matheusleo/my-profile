@@ -4,7 +4,6 @@
   display: flex;
   flex-flow: column wrap;
   align-content: center;
-  padding-left: 2.5%; /*Possivelmente modificar para alinhar centralizado corretamente*/
 }
 
 .wrapper-gif {

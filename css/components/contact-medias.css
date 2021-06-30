@@ -13,6 +13,11 @@
 .contact-column > .contact-media {
   margin-bottom: 1em;
 }
+
+.contact-column > .contact-media:last-of-type {
+  margin-bottom: 1.3em;
+}
+
 .contact-column > .contact-media > * {
   margin: 0em 1em;
 }
@@ -20,6 +25,12 @@
 .contact-logo {
   width: 4.5rem;
   height: 4.5rem;
+}
+
+@media screen and (max-width: 980px) {
+  .contact-column > .contact-media {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 475px) {
