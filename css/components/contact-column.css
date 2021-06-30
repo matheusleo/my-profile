@@ -1,0 +1,28 @@
+.contact-column {
+  min-width: 30rem;
+  width: min(80%, 47.5rem);
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  padding-left: 2.5%; /*Possivelmente modificar para alinhar centralizado corretamente*/
+}
+
+.wrapper-gif {
+  width: 100%;
+}
+
+.wrapper-gif > * {
+  width: 100%;
+}
+
+.contact-logo {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+@media screen and (max-width: 475px) {
+  .contact-logo {
+    width: 4em;
+    height: 4em;
+  }
+}
