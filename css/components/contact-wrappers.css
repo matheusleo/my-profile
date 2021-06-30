@@ -1,0 +1,6 @@
+.contact-wrapper {
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+  align-items: center;
+}
