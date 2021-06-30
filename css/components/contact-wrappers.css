@@ -1,7 +1,0 @@
-.contact-wrapper {
-  /*Mudar para contact-content e mudar arquivo de origem */
-  display: flex;
-  width: 100%;
-  flex-flow: column wrap;
-  align-items: center;
-}
