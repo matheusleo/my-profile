@@ -139,21 +139,24 @@
             <form action="#" class="form-main" id="form-contact">
                 <fieldset class="form-fieldset">
                     <label for="form-sender" class="form-label">Nome:</label><br>
-                    <input required name="form-sender" placeholder="Robin" class="form-input" id="form-sender" type="text">
+                    <input title="Insira seu nome para contato" required name="form-sender" 
+                    placeholder="Robin" class="form-input" id="form-sender" type="text">
                 </fieldset>
                 
                 <fieldset class="form-fieldset">
                     <label for="form-email" class="form-label">Email:</label><br>
-                    <input required name="form-email" placeholder="robin@batfamily.bat" class="form-input" id="form-email" type="email">
+                    <input title="Insira um email válido para contato" required name="form-email" 
+                    placeholder="robin@batfamily.bat" class="form-input" id="form-email" type="email">
 
                     <label for="form-subject" class="form-label">Assunto:</label><br>
-                    <input required name="form-subject" placeholder="Batmóvel" class="form-input" id="form-subject" type="text">
+                    <input title="Insira o assunto sobre o qual gostaria de conversar" required 
+                    name="form-subject" placeholder="Batmóvel" class="form-input" id="form-subject" type="text">
                 </fieldset>
 
                 <fieldset class="form-fieldset">
                     <label for="form-message" class="form-label">Mensagem:</label><br>
-                    <textarea required name="form-message" placeholder=
-                    "Então, Bats, sobre o Batmóvel que eu peguei emprestado para dar uma voltinha..."
+                    <textarea title="Insira a mensagem que você deseja enviar" required name="form-message" 
+                    placeholder= "Então, Bats, sobre o Batmóvel que eu peguei emprestado para dar uma voltinha..."
                     name="form-massage" id="form-message"  class="form-input"
                     rows="10" style="resize: none;"></textarea>
                 </fieldset>
@@ -162,7 +165,7 @@
                     <button form="form-contact" type="submit" class="button-main -submit">Enviar</button>
                 </fieldset>
             </form>
-        </section>  
+        </section>
     </main>
 
     <footer class="footer-main">
