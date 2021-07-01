@@ -16,32 +16,29 @@ Plano ** - Bug Fixes
     XIII - Modificar section-main - detalhes no arquivo section-main.css
     XIV - Modificar project-wrapper.css - unidade de medida
     XV - Modificar footer-main.css - unidade de medida
+    XVI - Adicionar animações com keyframes e refinar o site
+    XVII - Refatorar CSS dos buttons
 
     Ideias de Correção:
         - Tornar o invader responsivo
         - Modificar os títulos das sections para telas até 320px
         - Melhorar responsividade para telas de celulares horizontais - BAIXA PRIORIDADE
         - Adicionar max-width as section Introduction e About
+    
+    Ideias de Features:
+        - Adicionar span's com linhas que relembrem video games para que o usuário tenha uma dica visual do que ele deve
+        fazer em cada section (ex.: clicar no botão, selecionar um card, preencher e enviar um formlário)
 
 
 Plano A - Section Contact
-    Trabalho de Ontem: Finalizar estado bruto da section Contact e iniciar polimentos/retoques ao form e elementos dela
+    Trabalho de Ontem: - Finalizar o curso da FiredLabs de HTML e CSS feliz.
+                       - Finalizar 90% da section Contact
+                       - Iniciar polimentos/retoques/correção de bugs ao código
 
-    Falta: 
-        - Implementar a segunda coluna - que envolve as mídias sociais 
-        (.social-medias,.contact-media...) e o GIF do Mario no PC = [ok]
-        - Criar estética que indica/modifica quando uma social media estivar ativada, selecionada e focada
-                                                                            (:active, :hover, :focus) = [ok]
-        - Criar estética que modifica o placeholder quando ele for selecionado para indicar onde o cursor está = [ok]
-        - Criar estética que modifica a box-shadow para indicar se o contúdo é válido ou não = [ok]
-                                                                            
-        - Criar estética que indica se o input foi preenchido corretamente - span a direita
-
+    Falta:
         - Aprender a utilizar a tooltip
         - Aprender a fazer o <span> de dúvida que explica como o input deve ser preenchido
 
     Ideias: 
-        - Mudar a background-color da section Contact (?)
         - Adicionar tooltip/span interrogação para informar que tipo de dado é esperado
-            > isso exige estudar data-* https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*
-        -
+            > isso exige estudar data-* https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-
