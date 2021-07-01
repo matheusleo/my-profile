@@ -28,6 +28,7 @@
         <link rel="stylesheet" href="css/components/footer-main.css">
         <link rel="stylesheet" href="css/components/form-fieldset.css">
         <link rel="stylesheet" href="css/components/form-main.css">
+        <link rel="stylesheet" href="css/components/form-validity.css">
         <link rel="stylesheet" href="css/components/header-menu.css">
         <link rel="stylesheet" href="css/components/header-page.css">
         <link rel="stylesheet" href="css/components/main-scrollbar.css">
@@ -144,16 +145,27 @@
                         <label for="form-sender" class="form-label">Nome:</label><br>
                         <input title="Insira seu nome para contato" required name="form-sender" 
                         placeholder="Robin" class="form-input" id="form-sender" type="text">
+                        <span class="form-validity">
+                          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M18 6h2v2h-2V6zm-2 4V8h2v2h-2zm-2 2v-2h2v2h-2zm-2 2h2v-2h-2v2zm-2 2h2v-2h-2v2zm-2 0v2h2v-2H8zm-2-2h2v2H6v-2zm0 0H4v-2h2v2z" fill="var(--color-fifth)"/></svg>
+                        </span>
                     </fieldset>
                     
                     <fieldset class="form-fieldset">
                         <label for="form-email" class="form-label">Email:</label><br>
                         <input title="Insira um email válido para contato" required name="form-email" 
                         placeholder="robin@batfamily.bat" class="form-input" id="form-email" type="email">
+                        <span class="form-validity">
+                          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M18 6h2v2h-2V6zm-2 4V8h2v2h-2zm-2 2v-2h2v2h-2zm-2 2h2v-2h-2v2zm-2 2h2v-2h-2v2zm-2 0v2h2v-2H8zm-2-2h2v2H6v-2zm0 0H4v-2h2v2z" fill="var(--color-fifth)"/></svg>
+                        </span>
+                    </fieldset>
 
+                    <fieldset class="form-fieldset">
                         <label for="form-subject" class="form-label">Assunto:</label><br>
                         <input title="Insira o assunto sobre o qual gostaria de conversar" required 
                         name="form-subject" placeholder="Batmóvel" class="form-input" id="form-subject" type="text">
+                        <span class="form-validity">
+                          <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"> <path d="M18 6h2v2h-2V6zm-2 4V8h2v2h-2zm-2 2v-2h2v2h-2zm-2 2h2v-2h-2v2zm-2 2h2v-2h-2v2zm-2 0v2h2v-2H8zm-2-2h2v2H6v-2zm0 0H4v-2h2v2z" fill="var(--color-fifth)"/></svg>
+                        </span>
                     </fieldset>
 
                     <fieldset class="form-fieldset">
