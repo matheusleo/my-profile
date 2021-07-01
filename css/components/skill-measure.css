@@ -3,8 +3,10 @@
 }
 
 .measure {
+  background: none;
   width: 32em;
-  height: 5em;
+  height: 2.5em;
+  background-color: var(--color-fourth);
 }
 
 .measure::-webkit-meter-bar {
@@ -13,11 +15,17 @@
   border: 0.5em solid var(--color-second);
   background-origin: border-box;
   box-sizing: content-box;
+  height: 2.5em;
 }
 
 .measure::-webkit-meter-optimum-value {
   background-color: var(--color-second);
   transition: 2000ms 500ms;
+}
+
+*::-moz-meter-bar {
+  background: none;
+  background-color: var(--color-second);
 }
 
 @media screen and (max-width: 475px) {
