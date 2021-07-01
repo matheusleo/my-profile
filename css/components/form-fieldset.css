@@ -1,6 +1,7 @@
 .form-fieldset {
   width: 85%;
   padding-right: 5%;
+  position: relative;
 }
 
 .form-label {
@@ -24,4 +25,16 @@
 
 textarea.form-input {
   margin: 0.5rem 0 2.5rem;
+}
+
+.form-input:focus:valid {
+  box-shadow: 0 0 0.75rem var(--color-sucess);
+}
+
+.form-input:focus:invalid {
+  box-shadow: 0 0 0.75rem var(--color-error);
+}
+
+.form-input:focus::placeholder {
+  color: rgba(0, 34, 78, 0.75);
 }
