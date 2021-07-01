@@ -2,10 +2,10 @@
   width: 2.5rem;
   height: 2.5rem;
   position: absolute;
-  right: -2%;
+  right: -3rem;
   top: 42%;
 }
 
-.form-input:invalid + span.form-validity {
+.form-input.-validate:invalid + span.form-validity {
   display: none;
 }
