@@ -1,0 +1,52 @@
+.contact-media {
+  /*Adicionar eles sendo retirados quando a tela estiver menor quue 1024px*/
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: var(--color-third);
+  font-family: "Fira Code", monospace;
+  font-size: 2.25rem;
+  transition: transform 250ms ease-in-out;
+}
+
+.contact-column > .contact-media {
+  margin-bottom: 1em;
+}
+
+.contact-column > .contact-media:last-of-type {
+  margin-bottom: 1.3em;
+}
+
+.contact-media:focus,
+.contact-media:hover {
+  transform: scale(1.0275);
+}
+
+.contact-media:active {
+  opacity: 0.75;
+  transform: scale(1);
+}
+
+.contact-column > .contact-media > * {
+  margin: 0em 1em;
+}
+
+.contact-logo {
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+@media screen and (max-width: 980px) {
+  .contact-column > .contact-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .contact-logo {
+    width: 4rem;
+    height: 4rem;
+  }
+}

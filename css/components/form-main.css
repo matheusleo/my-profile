@@ -1,0 +1,14 @@
+.form-main {
+  min-width: 30rem;
+  width: min(80%, 47.5rem);
+  display: flex;
+  flex-flow: column wrap;
+  align-content: start;
+}
+
+@media screen and (max-width: 980px) {
+  .form-main {
+    margin-bottom: 5rem; /*Remover margin bottom, quando a tela for maior que 1024px*/
+    padding-left: 2.5%;
+  }
+}

@@ -22,3 +22,11 @@
   border-bottom: 0.8em solid var(--color-fifth);
   align-items: center;
 }
+
+.section-main.-contact {
+  background-color: var(--color-black-first);
+  border-bottom: 0.8em solid var(--color-fifth);
+}
+
+/*Modificar a maneira em que a borda é aplicada utilizando uma border-bottom padrão para todos e modificando
+apenas a border-bottom-color. Isso irá melhorar a harmonia entre todas as sections*/

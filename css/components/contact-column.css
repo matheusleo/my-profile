@@ -1,0 +1,15 @@
+.contact-column {
+  min-width: 30rem;
+  width: min(80%, 47.5rem);
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+.wrapper-gif {
+  width: 100%;
+}
+
+.wrapper-gif > * {
+  width: 100%;
+}
