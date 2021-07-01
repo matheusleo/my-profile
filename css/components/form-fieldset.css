@@ -1,6 +1,5 @@
 .form-fieldset {
   width: 85%;
-  padding-right: 5%;
   position: relative;
 }
 
@@ -21,11 +20,15 @@
   border: 0.5rem solid rgba(0, 34, 78, 1);
   /*Era necessário adicionar um constraste maior entre borda e background*/
   margin: 0.5rem 0 1rem;
+}
+
+.form-input.-validate {
   padding-right: 2.5rem;
 }
 
 textarea.form-input {
   margin: 0.5rem 0 2.5rem;
+  width: calc(100% + 2.5rem);
 }
 
 .form-input:focus:valid {
