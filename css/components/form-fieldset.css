@@ -29,6 +29,7 @@
 textarea.form-input {
   margin: 0.5rem 0 2.5rem;
   width: calc(100% + 2.5rem);
+  max-height: 30.2rem;
 }
 
 .form-input:focus:valid {
