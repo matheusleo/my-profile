@@ -23,7 +23,7 @@ function deployDescription(project) {
   const projectDescription = `
     <div class="wrapper-section" id="wrapper-section" style="width: 100%; height: 100%">
       <h3 class="title-main -project">${project.projectTitle}</h3>
-      <button class="button-dark" id="button-clean">×</button>
+      <button class="button-dark -clean" id="button-clean">×</button>
       <article class="project-description">
           <figure class="project-card -description" ${backgroundColor}>
             <img

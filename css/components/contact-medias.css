@@ -38,6 +38,12 @@
   height: 4.5rem;
 }
 
+@media screen and (max-width: 1024px) {
+  .contact-media {
+    font-size: 2rem;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .contact-column > .contact-media {
     display: none;

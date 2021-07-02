@@ -89,6 +89,10 @@
     letter-spacing: 0.09em;
   }
 
+  .title-main.-introduction {
+    font-size: min(7vw, 2.75rem);
+  }
+
   .title-main.-project {
     font-size: 2.5rem;
   }

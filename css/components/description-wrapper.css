@@ -9,10 +9,22 @@
   font-family: "Fira Code", monospace;
   font-size: 2.5rem;
   text-decoration: none;
-  color: var(--color-black-first);
+  color: var(--color-black-second);
   font-weight: bold;
   display: inline;
-  max-width: 11em;
+  width: 100%;
+  text-align: left;
+  transition: transform 250ms ease-in-out;
+}
+
+.link:hover,
+.link:focus {
+  transform: scale(1.0275);
+}
+
+.link:active {
+  opacity: 0.75;
+  transform: scale(1);
 }
 
 @media screen and (max-width: 1200px) {
@@ -29,6 +41,10 @@
   .description-wrapper {
     width: 80%;
     align-items: center;
+  }
+
+  .link {
+    text-align: center;
   }
 }
 
