@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 475px) {
   .subtitle-main.-introduction {
-    font-size: 1.8rem;
+    font-size: clamp(1.6rem, 4vw, 1.8rem);
     line-height: 1.25;
     letter-spacing: 0.15em;
   }
