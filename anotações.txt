@@ -1,23 +1,24 @@
 A próxima aula à ser assistida é a do [Módulo 7.01]
 
 Plano ** - Bug Fixes
-    I - Corrigir section Introdution - 768px < tela < 980px
-    II - Corrigir section Introdution - tela < 768px
-    III - Corrigir section Description - telas < 560px
-    IV - Corrigir section Description - 768px < tela < 980px
-    V - Modificar height das sections (?)
     IV - Como fazer as opções dele inselecionáveis a partir do fechamento? - tela < 980px
-    VII - Adicionar text-align: justify/estudar text-align
-    VIII - Criar o código responsável pela edição no Firefox do <meter>
-    IX - Como melhorar a qualidade do código dentro do "button-dark.css"
     X - Adicionar um fallback para não haver duplicação da descrição com double-click
-    XI - Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
-    XII - Verificar text-shadow dos títulos de seção
-    XIII - Modificar section-main - detalhes no arquivo section-main.css
-    XIV - Modificar project-wrapper.css - unidade de medida
-    XV - Modificar footer-main.css - unidade de medida
     XVI - Adicionar animações com keyframes e refinar o site
-    XVII - Refatorar CSS dos buttons
+        > estudar @keyframes e adicionar no link, uma seta em pixel art que mexe para direita e para
+        esquerda para chamar a atenção du usuário
+    
+    Corrigido:
+        III - Corrigir section Description - telas < 560px
+        IV - Corrigir section Description - 768px < tela < 980px
+        VIII - Criar o código responsável pela edição no Firefox do <meter> = [mais ou menos certo]
+        XIII - Modificar section-main - detalhes no arquivo section-main.css
+        XIV - Modificar project-wrapper.css - unidade de medida
+        IX - Como melhorar a qualidade do código dentro do "button-dark.css"
+        XVII - Refatorar CSS dos buttons
+        XI - Criar animação que irá ser ativada ao passar o botão sobre o "visitar projeto"
+        I - Corrigir section Introdution - 768px < tela < 980px
+        II - Corrigir section Introdution - tela < 768px
+        XVIII - Melhorar responsividade do logo no header
 
     Ideias de Correção:
         - Tornar o invader responsivo
@@ -28,6 +29,14 @@ Plano ** - Bug Fixes
     Ideias de Features:
         - Adicionar span's com linhas que relembrem video games para que o usuário tenha uma dica visual do que ele deve
         fazer em cada section (ex.: clicar no botão, selecionar um card, preencher e enviar um formlário)
+        - Fazer o "Download CV" funcional
+        - Adicionar feature que faz como que, ao clicar no button do project, o usuário seja redirecionado automaticamente
+        para a section Description
+
+    Estudar:
+        - justify-text/text-align
+        - tooltip
+            > isso exige estudar data-* https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-
 
 
 Plano A - Section Contact
