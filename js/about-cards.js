@@ -17,7 +17,7 @@ const aboutContent = new Map([
     {
       aboutYear: 2020,
       aboutImage:
-        "https://github.com/matheusleo/my-profile/blob/section-about/assets/img/ufmg-2.png?raw=true",
+        "https://github.com/matheusleo/my-profile/blob/development/assets/img/ufmg-2.png?raw=true",
       aboutAlt: "Logo da Universidade Federal de Minas Gerais",
       aboutTitle: "UFMG",
       aboutDescription:
