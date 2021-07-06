@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--Soli Deo Gloria-->
 
 <html lang="pt-BR">
     <head>
@@ -12,13 +13,25 @@
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/base.css">
-        <link rel="stylesheet" href="css/components/button-clean.css">
+        <link rel="stylesheet" href="css/components/about-card.css">
+        <link rel="stylesheet" href="css/components/about-image.css">
+        <link rel="stylesheet" href="css/components/about-timeline.css">
+        <link rel="stylesheet" href="css/components/about-wrappers.css">
         <link rel="stylesheet" href="css/components/button-dark.css">
         <link rel="stylesheet" href="css/components/button-main.css">
         <link rel="stylesheet" href="css/components/button-measure.css">
+        <link rel="stylesheet" href="css/components/contact-column.css">
+        <link rel="stylesheet" href="css/components/contact-content.css">
+        <link rel="stylesheet" href="css/components/contact-medias.css">
+        <link rel="stylesheet" href="css/components/description-paragraph.css">
         <link rel="stylesheet" href="css/components/description-wrapper.css">
+        <link rel="stylesheet" href="css/components/footer-main.css">
+        <link rel="stylesheet" href="css/components/form-fieldset.css">
+        <link rel="stylesheet" href="css/components/form-main.css">
+        <link rel="stylesheet" href="css/components/form-validity.css">
         <link rel="stylesheet" href="css/components/header-menu.css">
         <link rel="stylesheet" href="css/components/header-page.css">
+        <link rel="stylesheet" href="css/components/main-scrollbar.css">
         <link rel="stylesheet" href="css/components/menu-control.css">
         <link rel="stylesheet" href="css/components/presentation.css">
         <link rel="stylesheet" href="css/components/profile-picture.css">
@@ -52,17 +65,20 @@
                     <ul id="menu-options" class="options">
                         <li class="list-item"><a class="option" href="#section-skills" lang="en">Skills</a></li>
                         <li class="list-item"><a class="option" href="#section-projects">Projetos</a></li>
-                        <li class="list-item"><a class="option" href="">Sobre</a></li>
-                        <li class="list-item"><a class="option" href="">Contatos</a></li>
-                        <li id="option-cv" class="list-item"><a class="option" href="">Download CV</a></li>
+                        <li class="list-item"><a class="option" href="#section-about">Sobre Mim</a></li>
+                        <li class="list-item"><a class="option" href="#section-contact">Contatos</a></li>
+                        <li id="option-cv" class="list-item"><a class="option"  href="assets/files/curriculum.pdf"
+                            download="Currículo - Matheus Leonardo">Download CV</a></li>
                     </ul>
                 </nav>
-                <button class="button-main -cv" lang="en">Download CV</button> 
+                <a class="button-main -cv" lang="en"  href="assets/files/curriculum.pdf"
+                download="Currículo - Matheus Leonardo">Download CV</a> 
                 <!--Editar depois a configuração de como 
                     utilizar o botão para baixar CV-->
             </div>
         </header>
     <main id="main-content" style="transition: 500ms ease-in-out;">
+
         <section class="section-introduction" id="section-introduction">
             <div class="introduction-wrapper">
                 <div class="introduction-banner">
@@ -71,8 +87,9 @@
                     <h2 class="subtitle-main -introduction" lang="en">FrontEnd Developer</h2>
                 </div>
                 <div class="wrapper-actions">
-                    <button class="button-main -cv" lang="en">Download CV</button>
-                    <button class="button-main -contact">Contatos</button>
+                    <a class="button-main -cv" lang="en" href="assets/files/curriculum.pdf"
+                    download="Currículo - Matheus Leonardo">Download CV</a>
+                    <a class="button-main -contact" href="#section-contact">Contatos</a>
                 </div>
             </div>
             <img class="profile-picture" src="https://github.com/matheusleo/my-profile/blob/main/assets/img/perfil-my-profile.png?raw=true" alt="Foto de Perfil">
@@ -94,13 +111,73 @@
                 <section class="section-description -disabled" id="section-description"></section>
             </div>
         </section>
+
+        <section class="section-main -about-me" id="section-about">
+
+            <h3 class="title-main -section">Sobre Mim</h3>
+            
+            <div class="wrapper-timeline">
+                <span class="about-timeline"></span>
+                <button class="button-main -arrow" id="button-arrow-left">
+                    <img src="https://raw.githubusercontent.com/matheusleo/my-profile/807714eb65e32f231d9ed7ee747531ec73909e9d/assets/arrow/arrow-pixel-art.svg " alt="Seta para Esquerda, em Pixel Art">
+                </button>
+
+                <div class="wrapper-cards" id="wrapper-cards">
+                </div>
+
+                <button class="button-main -arrow" id="button-arrow-right">
+                    <img style="transform: rotate(180deg);" src="https://raw.githubusercontent.com/matheusleo/my-profile/807714eb65e32f231d9ed7ee747531ec73909e9d/assets/arrow/arrow-pixel-art.svg  " alt="Seta para Direita, em Pixel Art">
+                </button>
+            </div>
+
+            <p class="description-paragraph -about-me">Entrei na área de programação desde que 
+                descobri ela com uma matéria dedicada à Python, na UFMG, em 2020, e fiquei 
+                maravilhado. A partir disso, comecei a aprender HTML, CSS e JavaScript com um 
+                desejo crescente e a disposição de sempre aprender mais e me aprofundar na área.
+                Com o meu avanço, descobri novas paixões, como design, e que, com programação, 
+                posso realizar uma das minhas maiores vontades: ajudar meu próximo. E, por isso, 
+                sigo em frente na área, estudando cada vez mais.</p>
+        </section>
+
+        <section class="section-main -contact" id="section-contact">
+            <h3 class="title-main -section">Contatos</h3>
+
+            <div class="contact-content">
+                <form action="#" class="form-main" id="form-contact">
+                    <fieldset class="form-fieldset">
+                        <label for="form-message" class="form-label">Mensagem:</label><br>
+                        <textarea title="Insira a mensagem que você deseja enviar" required name="form-message" 
+                        placeholder= "Então, Bats, sobre o Batmóvel que eu peguei emprestado para dar uma voltinha..."
+                        name="form-massage" id="form-message"  class="form-input"
+                        rows="10" style="resize: none;"></textarea>
+                    </fieldset>
+
+                    <fieldset class="form-fieldset">
+                        <button form="form-contact" type="submit" class="button-main -submit">Enviar</button>
+                    </fieldset>
+                </form>
+            
+                <div class="contact-column">
+                    <figure id="contact-gif" class="wrapper-gif">
+                        <img src="assets/img/mario-pc.gif" alt="GIF, em Pixel Art, do Mario utilizando o computador, 
+                        com várias referências no ambiente aos elementos presentes nos jogos da franquia">
+                    </figure>
+                </div>
+            </div>
+        </section>
     </main>
 
-        <script src="js/skill-itens.js"></script>
-        <script src="js/skill-measure.js"></script>
+    <footer id="footer-main" class="footer-main">
+    </footer>
+
+        <script src="js/about-cards.js"></script>
+        <script src="js/about-timeline.js"></script>
+        <script src="js/menu-control.js"></script>
         <script src="js/project-cards.js"></script>
         <script src="js/project-description.js"></script>
-        <script src="js/menu-control.js"></script>
+        <script src="js/skill-itens.js"></script>
+        <script src="js/skill-measure.js"></script>
+        <script src="js/contact-media.js"></script>
+        <script src="js/contact-form.js"></script>
     </body>
 </html>
-<!--Soli Deo Gloria-->

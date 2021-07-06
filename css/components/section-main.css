@@ -4,7 +4,7 @@
   flex-flow: column wrap;
   align-content: center;
   padding: 5em 0;
-  border-bottom: 0.8em solid var(--color-black-second);
+  border-bottom: 0.8em solid var(--color-second);
 }
 
 .section-main.-skills {
@@ -13,5 +13,20 @@
 
 .section-main.-projects {
   background-color: var(--color-black-first);
-  padding: 5em 0px 0px;
+  padding: 5em 0 0;
+  border-bottom-color: var(--color-fifth);
 }
+
+.section-main.-about-me {
+  background-color: var(--color-second);
+  border-bottom-color: var(--color-fifth);
+  align-items: center;
+}
+
+.section-main.-contact {
+  background-color: var(--color-black-first);
+  border-bottom-color: var(--color-fifth);
+}
+
+/*Modificar a maneira em que a borda é aplicada utilizando uma border-bottom padrão para todos e modificando
+apenas a border-bottom-color. Isso irá melhorar a harmonia entre todas as sections*/

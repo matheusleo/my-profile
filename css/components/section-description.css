@@ -7,6 +7,7 @@
   transition: 1000ms ease-in-out;
   background-color: var(--color-first);
   position: relative;
+  margin-top: 4.5rem;
 }
 
 .section-description.-active {
@@ -22,6 +23,7 @@
   position: relative;
   overflow: hidden;
   transition: 1000ms ease-in-out;
+  margin-top: 7.5rem;
 }
 
 .project-description {
@@ -39,7 +41,7 @@
   }
   .section-description.-active {
     width: calc(100% - 25vw);
-    padding: 6rem 5rem;
+    padding: 4.5rem 3.5rem;
   }
   .project-description {
     justify-content: space-around;
@@ -48,8 +50,8 @@
 
 @media screen and (max-width: 980px) {
   .section-description.-active {
-    height: 60em;
-    padding: 5rem 4rem;
+    height: 58em;
+    padding: 3.5rem 2.5rem;
   }
   .project-description {
     flex-flow: column wrap;
@@ -58,20 +60,28 @@
 
 @media screen and (max-width: 768px) {
   .section-description.-active {
-    height: 64em;
+    height: 60rem;
     padding: 4rem 3rem 2em;
   }
 }
 
 @media screen and (max-width: 560px) {
   .section-description.-active {
-    height: 68em;
-    padding: 2rem;
+    height: 68rem;
+    padding-bottom: 1.5em;
   }
 }
 
 @media screen and (max-width: 475px) {
   .section-description.-active {
     height: 90vh;
+    padding-top: 1.5rem;
   }
-} ;
+}
+
+@media screen and (max-width: 400px) {
+  .section-description.-active {
+    height: 100vh;
+    padding-bottom: 1em;
+  }
+}

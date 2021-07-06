@@ -23,9 +23,11 @@
 
   font-size: 62.5%;
   scroll-behavior: smooth;
+  scrollbar-color: var(--color-fourth) var(--color-second);
 }
 
 body {
   font-family: "Press Start 2P", cursive;
+  color: var(--color-black-first);
   background-color: var(--color-second);
 }

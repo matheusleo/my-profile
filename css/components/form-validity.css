@@ -1,0 +1,11 @@
+.form-validity > * {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: absolute;
+  right: -3rem;
+  top: 42%;
+}
+
+.form-input.-validate:invalid + span.form-validity {
+  display: none;
+}

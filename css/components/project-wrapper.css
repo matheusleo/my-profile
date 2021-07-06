@@ -1,18 +1,14 @@
 .project-wrapper {
   display: flex;
   width: 100%;
-  max-width: 1115px;
+  max-width: 111.5rem;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  margin-bottom: 25px;
-}
-
-.project-wrapper > .project-card {
-  margin-bottom: 50px;
+  margin-bottom: 2.5em;
 }
 
 .project-wrapper > .section-description {
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }

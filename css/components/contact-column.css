@@ -1,0 +1,25 @@
+.contact-column {
+  min-width: 30rem;
+  width: min(80%, 47.5rem);
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+}
+
+.contact-column > .contact-media:first-child {
+  margin-top: 2rem;
+}
+
+.wrapper-gif {
+  width: 100%;
+}
+
+.wrapper-gif > * {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-column > .contact-media:first-child {
+    margin-top: 1.8rem;
+  }
+}

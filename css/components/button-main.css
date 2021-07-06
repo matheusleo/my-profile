@@ -1,16 +1,14 @@
 .button-main {
+  text-decoration: none;
   font-family: "Fira Code", monospace;
   font-size: 2rem;
   border-radius: 0px;
   border: 0px;
   background-color: var(--color-first);
   color: var(--color-third);
-  box-shadow: 0.25em 0.25em 0px var(--color-black-first);
+  box-shadow: 0.25em 0.25em 0 var(--color-black-first);
   text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: 0.85em;
-  padding-bottom: 0.85em;
+  padding: 0.85em 1em;
   cursor: pointer;
   transition: transform 500ms cubic-bezier(0.28, 0.23, 0.52, 2.08);
 }
@@ -25,8 +23,25 @@
   transform: scale(0.95);
 }
 
+.button-main.-arrow {
+  width: 2em;
+  height: 2em;
+  padding: 0;
+}
+
+.button-main.-submit {
+  padding: 0.4em 2em;
+}
+
 @media screen and (max-width: 980px) {
   .header-menu .button-main.-cv {
     display: none;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .button-main.-arrow {
+    width: 1.5em;
+    height: 1.5em;
   }
 }

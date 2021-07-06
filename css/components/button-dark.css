@@ -16,3 +16,41 @@
 .button-dark:active {
   transform: scale(0.85);
 }
+
+.button-dark.-clean {
+  color: var(--color-fourth);
+  font-size: 2.5rem;
+  font-family: inherit;
+  position: absolute;
+  right: 3em;
+  top: 10%;
+}
+
+.button-dark.-clean:active {
+  color: var(--color-fifth);
+}
+
+@media screen and (max-width: 980px) {
+  .button-dark.-clean {
+    right: 2em;
+    top: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button-dark.-clean {
+    right: 1em;
+    top: 2.5%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  #button-clean {
+    right: 0.25em;
+    top: 0.25em;
+    transform: scale(0.8);
+  }
+  #button-clean:active {
+    transform: scale(0.6);
+  }
+} ;

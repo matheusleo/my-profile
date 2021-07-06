@@ -5,32 +5,32 @@
   justify-content: space-between;
 }
 
-.description {
-  display: inline-block;
-  font-family: "Fira Code", monospace;
-  font-size: 2.5rem;
-  max-width: 24em;
-  line-height: 1.312em;
-}
-
 .link {
   font-family: "Fira Code", monospace;
   font-size: 2.5rem;
   text-decoration: none;
-  color: var(--color-black-first);
+  color: var(--color-black-second);
   font-weight: bold;
   display: inline;
-  max-width: 11em;
+  width: 100%;
+  text-align: left;
+  transition: transform 250ms ease-in-out;
+}
+
+.link:hover,
+.link:focus {
+  transform: scale(1.0275);
+}
+
+.link:active {
+  opacity: 0.75;
+  transform: scale(1);
 }
 
 @media screen and (max-width: 1200px) {
   .description-wrapper {
     justify-content: space-evenly;
     width: 60%;
-  }
-
-  .description {
-    font-size: 2rem;
   }
   .link {
     font-size: 2rem;
@@ -43,7 +43,7 @@
     align-items: center;
   }
 
-  .description {
+  .link {
     text-align: center;
   }
 }
@@ -52,15 +52,9 @@
   .description-wrapper {
     height: 100%;
   }
-  .description {
-    margin-bottom: 0.75em;
-  }
 }
 
 @media screen and (max-width: 475px) {
-  .description {
-    font-size: 2.5vh;
-  }
   .link {
     font-size: 2.5vh;
   }

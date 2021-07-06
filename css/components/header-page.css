@@ -8,5 +8,15 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.5em 1em;
-  border-bottom: 0.4em solid var(--color-black-second);
+  border-bottom: 0.4em solid var(--color-black-first);
+}
+
+.header-page .logo {
+  height: 6rem;
+}
+
+@media screen and (max-width: 980px) {
+  .header-page .logo {
+    height: max(4.5rem, 5vh);
+  }
 }
